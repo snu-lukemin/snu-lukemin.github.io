@@ -6,6 +6,8 @@ category: Introduction
 layout: post
 ---
 
+Here are the links to my social media.
+
 + [Github]
 + [LinkedIn]
 
