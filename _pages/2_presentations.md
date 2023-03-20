@@ -16,5 +16,5 @@ Posters
 
 1. [Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity (Poster)] - FHE.org conference 2023
 
-[Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity (PPT)]: /files/MKTFHE.pptx
-[Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity (Poster)]: /files/MKTFHE_poster.pdf
+[Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity (PPT)]: https://github.com/snu-lukemin/snu-lukemin.github.io/blob/master/files/MKTFHE.pptx
+[Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity (Poster)]: https://github.com/snu-lukemin/snu-lukemin.github.io/blob/master/files/MKTFHE_poster.pdf
