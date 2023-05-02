@@ -6,8 +6,9 @@ category: Introduction
 layout: post
 ---
 
-1. [Towards Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity] - H.Kwak, S.Min, Y.Song
-2. [Convergence Of The Sequence kn-p And Its Properties] - Dissertion
+1. Faster TFHE Bootstrapping with Block Binary Keys (ASIACCS 2023) - C.Lee, S.Min, J.Seo, Y.Song
+2. [Towards Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity] - H.Kwak, S.Min, Y.Song
+3. [Convergence Of The Sequence kn-p And Its Properties] - Dissertion
 
 
 [Convergence Of The Sequence kn-p And Its Properties]: https://github.com/snu-lukemin/snu-lukemin.github.io/blob/master/files/kn-p.pdf
