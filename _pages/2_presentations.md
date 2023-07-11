@@ -11,6 +11,8 @@ Presentations
 
 1. [Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity (PPT)] - Seoul National University
 
+2. [Faster TFHE Bootstrapping with Block Binary Keys (Slides)] - AsiaCCS 2023
+
 Posters
 -------------
 
@@ -18,3 +20,4 @@ Posters
 
 [Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity (PPT)]: https://github.com/snu-lukemin/snu-lukemin.github.io/blob/master/files/MKTFHE.pptx
 [Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity (Poster)]: https://github.com/snu-lukemin/snu-lukemin.github.io/blob/master/files/MKTFHE_poster.pdf
+[Faster TFHE Bootstrapping with Block Binary Keys (Slides)]: https://github.com/snu-lukemin/snu-lukemin.github.io/blob/master/files/_ASIACCS23__Block_Key_PPT.pdf
