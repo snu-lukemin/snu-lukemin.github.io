@@ -1,13 +1,13 @@
 ---
 title: Publications
 author: Seonhong Min
-date: 2023-06-19
+date: 2023-12-26
 category: Introduction
 layout: post
 ---
 
 1. [Faster TFHE Bootstrapping with Block Binary Keys] (ASIACCS 2023) - C.Lee, S.Min, J.Seo, Y.Song
-2. [Towards Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity] - H.Kwak, S.Min, Y.Song
+2. [Towards Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity] (PKC 2024) - H.Kwak, S.Min, Y.Song
 3. [Convergence Of The Sequence kn-p And Its Properties] - Dissertion
 
 
