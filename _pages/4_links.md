@@ -10,7 +10,9 @@ Here are the links to my social media.
 
 + [Github]
 + [LinkedIn]
++ [X (Twitter)]
 
 
 [Github]: https://github.com/snu-lukemin
 [LinkedIn]: https://www.linkedin.com/in/seonhong-min-b3155714a/
+[X (Twitter)]: https://twitter.com/snu_lukemin
