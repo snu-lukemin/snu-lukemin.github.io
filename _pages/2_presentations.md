@@ -15,6 +15,8 @@ Presentations
 
 3. Faster TFHE Bootstrapping with Block Binary Keys [(Slides)] [4] [(Video)] [5] - FHE.org
 
+4. Towards Practical Multi-Key TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity [(Slides)] [6] - PKC 2024
+
 Posters
 -------------
 
@@ -25,3 +27,4 @@ Posters
 [3]: https://github.com/snu-lukemin/snu-lukemin.github.io/blob/master/files/_ASIACCS23__Block_Key_PPT.pdf
 [4]: https://github.com/snu-lukemin/snu-lukemin.github.io/blob/master/files/_FHE_org_Block_Key_PPT.pdf
 [5]: https://www.youtube.com/watch?v=SkdnewzruNA
+[6]: https://github.com/snu-lukemin/snu-lukemin.github.io/blob/master/files/_PKC24__MKTFHE.pdf
