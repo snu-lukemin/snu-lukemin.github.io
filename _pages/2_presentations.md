@@ -9,15 +9,15 @@ layout: post
 Presentations
 -------------
 
-1. Functional Bootstrapping for Packed Ciphertexts via Homomorphic LUT Evaluation [(Slides)] [7] [(Video)] [8] - FHE.org
++ Functional Bootstrapping for Packed Ciphertexts via Homomorphic LUT Evaluation [(Slides)] [7] [(Video)] [8] - FHE.org
 
-2. Towards Practical Multi-Key TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity [(Slides)] [6] - PKC 2024
++ Towards Practical Multi-Key TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity [(Slides)] [6] - PKC 2024
 
-3. Faster TFHE Bootstrapping with Block Binary Keys [(Slides)] [4] [(Video)] [5] - FHE.org
++ Faster TFHE Bootstrapping with Block Binary Keys [(Slides)] [4] [(Video)] [5] - FHE.org
 
-4. Faster TFHE Bootstrapping with Block Binary Keys [(Slides)] [3] - AsiaCCS 2023
++ Faster TFHE Bootstrapping with Block Binary Keys [(Slides)] [3] - AsiaCCS 2023
 
-5. Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity [(Slides)] [1] - Seoul National University
++ Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity [(Slides)] [1] - Seoul National University
 
 Posters
 -------------
