@@ -6,31 +6,31 @@ category: Introduction
 layout: post
 ---
 
-1. Carousel: Fully Homomorphic Encryption from Slot Blind Rotation Technique
++ Carousel: Fully Homomorphic Encryption from Slot Blind Rotation Technique
     + (α-β order) **Seonhong Min**, Yongsoo Song
     + [(ePrint)] [8]
-2. Enhanced CKKS Bootstrapping with Generalized Polynomial Composites Approximation 
++ Enhanced CKKS Bootstrapping with Generalized Polynomial Composites Approximation 
     + **Seonhong Min**, Joon-woo Lee, Yongsoo Song
     + ASIACCS 2025
-3. More Efficient Lattice-based OLE from Circuit-private Linear HE with Polynomial Overhead 
++ More Efficient Lattice-based OLE from Circuit-private Linear HE with Polynomial Overhead 
     + (α-β order) Leo de Castro, Duhyeong Kim, Miran Kim, Keewoo Lee, **Seonhong Min**, Yongsoo Song
     + [(ePrint)] [7] 
-4. TopGear 2.0: Accelerated Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing
++ TopGear 2.0: Accelerated Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing
     + (α-β order) HyunHo Cha, Intak Hwang, **Seonhong Min**, Jinyeong Seo, Yongsoo Song
     + [(ePrint)] [6]
-5. Ring-LWE based encrypted controller with unlimited number of recursive multiplications and effect of error growth 
++ Ring-LWE based encrypted controller with unlimited number of recursive multiplications and effect of error growth 
     + Yeongjun Jang, Joowon Lee, **Seonhong Min**, Hyesun Kwak, Junsoo Kim, Yongsoo Song
     + IEEE Trans. on Control of Network Systems, under revision [(arXiv)] [5] 
-6. Functional Bootstrapping for Packed Ciphertexts via Homomorphic LUT Evaluation
++ Functional Bootstrapping for Packed Ciphertexts via Homomorphic LUT Evaluation
     + (α-β order) Dongwon Lee, **Seonhong Min**, Yongsoo Song
     + [(ePrint)] [4]
-7. Faster TFHE Bootstrapping with Block Binary Keys 
++ Faster TFHE Bootstrapping with Block Binary Keys 
     + (α-β order) Changmin Lee, **Seonhong Min**, Jinyeong Seo, Yongsoo Song
     + ASIACCS 2023 [(ePrint)] [3]
-8. Towards Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity 
++ Towards Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity 
     + (α-β order) Hyesun Kwak, **Seonhong Min**, Yongsoo Song
     + PKC 2024 [(ePrint)] [2]
-9. Convergence Of The Sequence kn-p And Its Properties 
++ Convergence Of The Sequence kn-p And Its Properties 
     + Dissertion
     + [(Link)] [1]
 
