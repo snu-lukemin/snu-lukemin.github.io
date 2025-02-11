@@ -26,9 +26,9 @@ Posters
 
 [1]: https://snu-lukemin.github.io/files/MKTFHE.pptx
 [2]: https://snu-lukemin.github.io/files/MKTFHE_poster.pdf
-[3]: https://snu-lukemin.github.io/files/_ASIACCS23__Block_Key_PPT.pdf
-[4]: https://snu-lukemin.github.io/files/_FHE_org_Block_Key_PPT.pdf
+[3]: https://snu-lukemin.github.io/files/ASIACCS23__Block_Key_PPT.pdf
+[4]: https://snu-lukemin.github.io/files/FHE_org_Block_Key_PPT.pdf
 [5]: https://www.youtube.com/watch?v=SkdnewzruNA
-[6]: https://snu-lukemin.github.io/files/_PKC24__MKTFHE.pdf
+[6]: https://snu-lukemin.github.io/files/PKC24__MKTFHE.pdf
 [7]: https://snu-lukemin.github.io/files/Functional.Bootstrapping.pdf
 [8]: https://www.youtube.com/watch?v=ngOQGLvBsCw
