@@ -51,7 +51,7 @@ layout: post
     + [(Link)] [1]
 
 
-[1]: https://github.com/snu-lukemin/snu-lukemin.github.io/blob/master/files/kn-p.pdf
+[1]: https://snu-lukemin.github.io/files/kn-p.pdf
 [2]: https://eprint.iacr.org/2022/1460
 [3]: https://eprint.iacr.org/2023/958
 [4]: https://eprint.iacr.org/2024/181
