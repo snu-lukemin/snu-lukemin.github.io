@@ -6,6 +6,14 @@ category: Introduction
 layout: post
 ---
 
++ Practical Circuit Privacy/Sanitization for TFHE
+    + (α-β order) Intak Hwang, **Seonhong Min**, Yongsoo Song
+    + In Submission
+
++ Ciphertext-Simulatable HE from BFV with Randomized Evaluation
+    + (α-β order) Intak Hwang, **Seonhong Min**, Yongsoo Song
+    + In Submission
+
 + Carousel: Fully Homomorphic Encryption from Slot Blind Rotation Technique
     + (α-β order) **Seonhong Min**, Yongsoo Song
     + [(ePrint)] [8]
