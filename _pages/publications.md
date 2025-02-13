@@ -12,7 +12,7 @@ layout: post
 
 + Ciphertext-Simulatable HE from BFV with Randomized Evaluation
     + (α-β order) Intak Hwang, **Seonhong Min**, Yongsoo Song
-    + In Submission
+    + In Submission [(ePrint)] [9]
 
 + Carousel: Fully Homomorphic Encryption from Slot Blind Rotation Technique
     + (α-β order) **Seonhong Min**, Yongsoo Song
@@ -59,3 +59,4 @@ layout: post
 [6]: https://eprint.iacr.org/2024/1502
 [7]: https://eprint.iacr.org/2024/1534
 [8]: https://eprint.iacr.org/2024/2032
+[9]: https://eprint.iacr.org/2025/203
