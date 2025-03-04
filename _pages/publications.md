@@ -6,6 +6,10 @@ category: Introduction
 layout: post
 ---
 
++ On the Security and Privacy of CKKS-based Homomorphic Evaluation Protocols
+    + (α-β order) Intak Hwang, **Seonhong Min**, Jinyeong Seo, Yongsoo Song
+    + In Submission [(ePrint)][11]
+
 + Practical Circuit Privacy/Sanitization for TFHE
     + (α-β order) Intak Hwang, **Seonhong Min**, Yongsoo Song
     + In Submission [(ePrint)][10]
@@ -61,3 +65,4 @@ layout: post
 [8]: https://eprint.iacr.org/2024/2032
 [9]: https://eprint.iacr.org/2025/203
 [10]: https://eprint.iacr.org/2025/216
+[11]: https://eprint.iacr.org/2025/382
