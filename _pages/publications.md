@@ -24,7 +24,7 @@ layout: post
 
 + Enhanced CKKS Bootstrapping with Generalized Polynomial Composites Approximation 
     + **Seonhong Min**, Joon-woo Lee, Yongsoo Song
-    + ASIACCS 2025
+    + ASIACCS 2025 [(ePrint)][12]
 
 + More Efficient Lattice-based OLE from Circuit-private Linear HE with Polynomial Overhead 
     + (α-β order) Leo de Castro, Duhyeong Kim, Miran Kim, Keewoo Lee, **Seonhong Min**, Yongsoo Song
@@ -66,3 +66,4 @@ layout: post
 [9]: https://eprint.iacr.org/2025/203
 [10]: https://eprint.iacr.org/2025/216
 [11]: https://eprint.iacr.org/2025/382
+[12]: https://eprint.iacr.org/2025/429
