@@ -24,6 +24,12 @@ Posters
 
 1. Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity [(Poster)] [2] - FHE.org conference 2023
 
+2. Carousel: Blind Rotation Over the Automorphism Group [(Poster)] [9] - FHE.org conference 2025
+
+3. Practical Sanitization for TFHE [(Poster)] [10] - FHE.org conference 2025
+
+4. Accelerated Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing [(Poster)] [11] - FHE.org conference 2025
+
 [1]: https://snu-lukemin.github.io/files/MKTFHE.pptx
 [2]: https://snu-lukemin.github.io/files/MKTFHE_poster.pdf
 [3]: https://snu-lukemin.github.io/files/ASIACCS23__Block_Key_PPT.pdf
@@ -32,3 +38,6 @@ Posters
 [6]: https://snu-lukemin.github.io/files/PKC24__MKTFHE.pdf
 [7]: https://snu-lukemin.github.io/files/Functional.Bootstrapping.pdf
 [8]: https://www.youtube.com/watch?v=ngOQGLvBsCw
+[9]: https://snu-lukemin.github.io/files/FHEorg-carousel.pdf
+[10]: https://snu-lukemin.github.io/files/FHEorg-carousel.pdf
+[11]: https://snu-lukemin.github.io/files/FHEorg-carousel.pdf

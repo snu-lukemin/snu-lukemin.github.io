@@ -1,7 +1,7 @@
 ---
 title: Publications
 author: Seonhong Min
-date: 2024-06-21
+date: 2025-03-11
 category: Introduction
 layout: post
 ---
@@ -20,7 +20,7 @@ layout: post
 
 + Carousel: Fully Homomorphic Encryption from Slot Blind Rotation Technique
     + (α-β order) **Seonhong Min**, Yongsoo Song
-    + [(ePrint)][8]
+    + In Submission [(ePrint)][8]
 
 + Enhanced CKKS Bootstrapping with Generalized Polynomial Composites Approximation 
     + **Seonhong Min**, Joon-woo Lee, Yongsoo Song
@@ -28,11 +28,11 @@ layout: post
 
 + More Efficient Lattice-based OLE from Circuit-private Linear HE with Polynomial Overhead 
     + (α-β order) Leo de Castro, Duhyeong Kim, Miran Kim, Keewoo Lee, **Seonhong Min**, Yongsoo Song
-    + [(ePrint)][7] 
+    + In Submission [(ePrint)][7] 
 
 + TopGear 2.0: Accelerated Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing
     + (α-β order) HyunHo Cha, Intak Hwang, **Seonhong Min**, Jinyeong Seo, Yongsoo Song
-    + [(ePrint)][6]
+    + S&P 2025 [(ePrint)][6]
 
 + Ring-LWE based encrypted controller with unlimited number of recursive multiplications and effect of error growth 
     + Yeongjun Jang, Joowon Lee, **Seonhong Min**, Hyesun Kwak, Junsoo Kim, Yongsoo Song
@@ -40,7 +40,7 @@ layout: post
 
 + Functional Bootstrapping for Packed Ciphertexts via Homomorphic LUT Evaluation
     + (α-β order) Dongwon Lee, **Seonhong Min**, Yongsoo Song
-    + [(ePrint)][4]
+    + In Submission [(ePrint)][4]
 
 + Faster TFHE Bootstrapping with Block Binary Keys 
     + (α-β order) Changmin Lee, **Seonhong Min**, Jinyeong Seo, Yongsoo Song
@@ -51,7 +51,7 @@ layout: post
     + PKC 2024 [(ePrint)][2]
     
 + Convergence Of The Sequence kn-p And Its Properties 
-    + Dissertion
+    + Dissertation
     + [(Link)][1]
 
 
