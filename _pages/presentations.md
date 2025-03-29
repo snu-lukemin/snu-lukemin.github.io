@@ -39,5 +39,5 @@ Posters
 [7]: https://snu-lukemin.github.io/files/Functional.Bootstrapping.pdf
 [8]: https://www.youtube.com/watch?v=ngOQGLvBsCw
 [9]: https://snu-lukemin.github.io/files/FHEorg-carousel.pdf
-[10]: https://snu-lukemin.github.io/files/FHEorg-sanitization.pdf
+[10]: https://snu-lukemin.github.io/files/FHEorg-sanitisation.pdf
 [11]: https://snu-lukemin.github.io/files/FHEorg-topgear.pdf
