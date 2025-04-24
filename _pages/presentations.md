@@ -30,14 +30,14 @@ Posters
 
 4. Accelerated Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing [(Poster)] [11] - FHE.org conference 2025
 
-[1]: https://snu-lukemin.github.io/files/MKTFHE.pptx
-[2]: https://snu-lukemin.github.io/files/MKTFHE_poster.pdf
-[3]: https://snu-lukemin.github.io/files/ASIACCS23__Block_Key_PPT.pdf
-[4]: https://snu-lukemin.github.io/files/FHE_org_Block_Key_PPT.pdf
+[1]: {{site.url}}/files/MKTFHE.pptx
+[2]: {{site.url}}/files/MKTFHE_poster.pdf
+[3]: {{site.url}}/files/ASIACCS23__Block_Key_PPT.pdf
+[4]: {{site.url}}/files/FHE_org_Block_Key_PPT.pdf
 [5]: https://www.youtube.com/watch?v=SkdnewzruNA
-[6]: https://snu-lukemin.github.io/files/PKC24__MKTFHE.pdf
-[7]: https://snu-lukemin.github.io/files/Functional.Bootstrapping.pdf
+[6]: {{site.url}}/files/PKC24__MKTFHE.pdf
+[7]: {{site.url}}/files/Functional.Bootstrapping.pdf
 [8]: https://www.youtube.com/watch?v=ngOQGLvBsCw
-[9]: https://snu-lukemin.github.io/files/FHEorg-carousel.pdf
-[10]: https://snu-lukemin.github.io/files/FHEorg-sanitisation.pdf
-[11]: https://snu-lukemin.github.io/files/FHEorg-topgear.pdf
+[9]: {{site.url}}/files/FHEorg-carousel.pdf
+[10]: {{site.url}}/files/FHEorg-sanitisation.pdf
+[11]: {{site.url}}/files/FHEorg-topgear.pdf

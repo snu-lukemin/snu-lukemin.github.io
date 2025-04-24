@@ -55,7 +55,7 @@ layout: post
     + [(Link)][1]
 
 
-[1]: https://snu-lukemin.github.io/files/kn-p.pdf
+[1]: {{site.url}}/files/kn-p.pdf
 [2]: https://eprint.iacr.org/2022/1460
 [3]: https://eprint.iacr.org/2023/958
 [4]: https://eprint.iacr.org/2024/181

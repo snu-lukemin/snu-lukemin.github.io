@@ -17,4 +17,4 @@ You can contact me via e-mail.
 + Professional: minsh (at) snu (dot) ac (dot) kr
 + Personal: pianomsh2080 (at) gmail (dot) com
 
-[here]: https://snu-lukemin.github.io/files/CV.pdf
+[here]: {{site.url}}/files/CV.pdf
