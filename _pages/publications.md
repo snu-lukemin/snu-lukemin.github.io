@@ -30,7 +30,7 @@ layout: post
     + (α-β order) Leo de Castro, Duhyeong Kim, Miran Kim, Keewoo Lee, **Seonhong Min**, Yongsoo Song
     + In Submission [(ePrint)][7] 
 
-+ TopGear 2.0: Accelerated Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing
++ MatriGear: Accelerated Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing
     + (α-β order) HyunHo Cha, Intak Hwang, **Seonhong Min**, Jinyeong Seo, Yongsoo Song
     + S&P 2025 [(ePrint)][6]
 
