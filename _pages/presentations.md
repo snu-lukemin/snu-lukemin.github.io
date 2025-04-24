@@ -31,12 +31,12 @@ Posters
 4. Accelerated Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing [(Poster)] [11] - FHE.org conference 2025
 
 [1]: {{site.url}}/files/MKTFHE.pptx
-[2]: {{site.url}}/files/MKTFHE_poster.pdf
-[3]: {{site.url}}/files/ASIACCS23__Block_Key_PPT.pdf
-[4]: {{site.url}}/files/FHE_org_Block_Key_PPT.pdf
+[2]: {{site.url}}/files/FHEorg-MKTFHE.pdf
+[3]: {{site.url}}/files/AsiaCCS-blockkey.pdf
+[4]: {{site.url}}/files/FHEorg-blockkey.pdf
 [5]: https://www.youtube.com/watch?v=SkdnewzruNA
-[6]: {{site.url}}/files/PKC24__MKTFHE.pdf
-[7]: {{site.url}}/files/Functional.Bootstrapping.pdf
+[6]: {{site.url}}/files/PKC-MKTFHE.pdf
+[7]: {{site.url}}/files/FHEorg-funcboot.pdf
 [8]: https://www.youtube.com/watch?v=ngOQGLvBsCw
 [9]: {{site.url}}/files/FHEorg-carousel.pdf
 [10]: {{site.url}}/files/FHEorg-sanitisation.pdf
