@@ -1,7 +1,7 @@
 ---
 title: Presentations/Poster
 author: Luke Min
-date: 2023-06-21
+date: 0000-01-02
 category: Jekyll
 layout: post
 ---
