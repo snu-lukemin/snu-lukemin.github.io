@@ -9,6 +9,14 @@ layout: post
 Conferences
 --------------------------------
 
++ Practical (Malicious) Circuit Privacy / Sanitization for TFHE
+    + (α-β order) Intak Hwang, **Seonhong Min**, Jinyeong Seo, Yongsoo Song
+    + CCS 2025 [(ePrint)][10]
+
++ Efficient Full Domain Functional Bootstrapping from Recursive LUT Decomposition
+    + (α-β order) Intak Hwang, Shinwon Lee, **Seonhong Min**, Yongsoo Song
+    + SAC 2025
+
 + MatriGear: Accelerated Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing
     + (α-β order) HyunHo Cha, Intak Hwang, **Seonhong Min**, Jinyeong Seo, Yongsoo Song
     + S&P 2025 [(ePrint)][6]
@@ -39,16 +47,12 @@ Preprints
     + (α-β order) Intak Hwang, **Seonhong Min**, Jinyeong Seo, Yongsoo Song
     + In Submission [(ePrint)][11]
 
-+ Practical Circuit Privacy/Sanitization for TFHE
-    + (α-β order) Intak Hwang, **Seonhong Min**, Yongsoo Song
-    + In Submission [(ePrint)][10]
-
 + Ciphertext-Simulatable HE from BFV with Randomized Evaluation
     + (α-β order) Intak Hwang, **Seonhong Min**, Yongsoo Song
     + In Submission [(ePrint)][9]
 
 + Carousel: Fully Homomorphic Encryption from Slot Blind Rotation Technique
-    + (α-β order) **Seonhong Min**, Yongsoo Song
+    + (α-β order) Intak Hwang, **Seonhong Min**, Yongsoo Song
     + In Submission [(ePrint)][8]
 
 + More Efficient Lattice-based OLE from Circuit-private Linear HE with Polynomial Overhead 
