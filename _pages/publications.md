@@ -9,13 +9,21 @@ layout: post
 Conferences
 --------------------------------
 
++ On the Security and Privacy of CKKS-based Homomorphic Evaluation Protocols
+    + (α-β order) Intak Hwang, **Seonhong Min**, Jinyeong Seo, Yongsoo Song
+    + ASIACRYPT 2025 [(ePrint)][11]
+
++ Carousel: Fully Homomorphic Encryption with Bootstrapping over Automorphism Group
+    + (α-β order) Intak Hwang, **Seonhong Min**, Yongsoo Song
+    + ASIACRYPT 2025 [(ePrint)][8]
+
 + Practical (Malicious) Circuit Privacy / Sanitization for TFHE
     + (α-β order) Intak Hwang, **Seonhong Min**, Jinyeong Seo, Yongsoo Song
     + CCS 2025 [(ePrint)][10]
 
 + Efficient Full Domain Functional Bootstrapping from Recursive LUT Decomposition
     + (α-β order) Intak Hwang, Shinwon Lee, **Seonhong Min**, Yongsoo Song
-    + SAC 2025
+    + SAC 2025 [(ePrint)][13]
 
 + MatriGear: Accelerated Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing
     + (α-β order) HyunHo Cha, Intak Hwang, **Seonhong Min**, Jinyeong Seo, Yongsoo Song
@@ -43,17 +51,13 @@ Journals
 Preprints
 --------------------------------
 
-+ On the Security and Privacy of CKKS-based Homomorphic Evaluation Protocols
-    + (α-β order) Intak Hwang, **Seonhong Min**, Jinyeong Seo, Yongsoo Song
-    + In Submission [(ePrint)][11]
++ Parallel Sublinear Bootstrapping for MK-FHE
+    + Binwu Xiang, **Seonhong Min**, Intak Hwang, Zhiwei Wang, Haoqi He, Yuanju Wei, Yi Deng, Jiang Zhang, Kang Yang, Yu Yu
+    + In Submission
 
 + Ciphertext-Simulatable HE from BFV with Randomized Evaluation
     + (α-β order) Intak Hwang, **Seonhong Min**, Yongsoo Song
     + In Submission [(ePrint)][9]
-
-+ Carousel: Fully Homomorphic Encryption from Slot Blind Rotation Technique
-    + (α-β order) Intak Hwang, **Seonhong Min**, Yongsoo Song
-    + In Submission [(ePrint)][8]
 
 + More Efficient Lattice-based OLE from Circuit-private Linear HE with Polynomial Overhead 
     + (α-β order) Leo de Castro, Duhyeong Kim, Miran Kim, Keewoo Lee, **Seonhong Min**, Yongsoo Song
@@ -80,3 +84,4 @@ Preprints
 [10]: https://eprint.iacr.org/2025/216
 [11]: https://eprint.iacr.org/2025/382
 [12]: https://eprint.iacr.org/2025/429
+[13]: https://eprint.iacr.org/2025/1255
