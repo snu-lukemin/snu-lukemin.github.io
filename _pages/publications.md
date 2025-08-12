@@ -46,7 +46,7 @@ Journals
 
 + Ring-LWE based encrypted controller with unlimited number of recursive multiplications and effect of error growth 
     + Yeongjun Jang, Joowon Lee, **Seonhong Min**, Hyesun Kwak, Junsoo Kim, Yongsoo Song
-    + IEEE Trans. on Control of Network Systems, under revision [(arXiv)][5] 
+    + IEEE Trans. on Control of Network Systems [(arXiv)][5] 
 
 Preprints
 --------------------------------
