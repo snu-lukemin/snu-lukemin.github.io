@@ -51,9 +51,13 @@ Journals
 Preprints
 --------------------------------
 
-+ Parallel Sublinear Bootstrapping for MK-FHE
-    + Binwu Xiang, **Seonhong Min**, Intak Hwang, Zhiwei Wang, Haoqi He, Yuanju Wei, Yi Deng, Jiang Zhang, Kang Yang, Yu Yu
++ Multi-key Fully Homomorphic Encryption with Non-Interactive Setup in the Plain Model
+    + **Seonhong Min**, Jeongeun Park, Yongsoo Song
     + In Submission
+
++ HELIOS: Multi-Key Fully Homomorphic Encryption with Sublinear Bootstrapping
+    + Binwu Xiang, **Seonhong Min**, Intak Hwang, Zhiwei Wang, Haoqi He, Yuanju Wei, Kang Yang, Jiang Zhang, Yi Deng, Yu Yu
+    + In Submission [(ePrint)][14]
 
 + Ciphertext-Simulatable HE from BFV with Randomized Evaluation
     + (α-β order) Intak Hwang, **Seonhong Min**, Yongsoo Song
@@ -85,3 +89,4 @@ Preprints
 [11]: https://eprint.iacr.org/2025/382
 [12]: https://eprint.iacr.org/2025/429
 [13]: https://eprint.iacr.org/2025/1255
+[14]: https://eprint.iacr.org/2025/1804
