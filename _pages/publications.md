@@ -52,7 +52,7 @@ Preprints
 --------------------------------
 
 + Multi-key Fully Homomorphic Encryption with Non-Interactive Setup in the Plain Model
-    + **Seonhong Min**, Jeongeun Park, Yongsoo Song
+    + (α-β order) **Seonhong Min**, Jeongeun Park, Yongsoo Song
     + In Submission
 
 + HELIOS: Multi-Key Fully Homomorphic Encryption with Sublinear Bootstrapping
