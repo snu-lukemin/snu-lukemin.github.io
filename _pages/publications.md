@@ -9,6 +9,10 @@ layout: post
 Conferences
 --------------------------------
 
++ C10. Multi-key Fully Homomorphic Encryption with Non-Interactive Setup in the Plain Model
+    + (α-β order) **Seonhong Min**, Jeongeun Park, Yongsoo Song
+    + CRYPTO 2026 [(ePrint)][16]
+
 + C9. HERDS: Multi-Key Fully Homomorphic Encryption with Sublinear Bootstrapping
     + Binwu Xiang, **Seonhong Min**, Intak Hwang, Zhiwei Wang, Haoqi He, Yuanju Wei, Kang Yang, Jiang Zhang, Yi Deng, Yu Yu
     + EUROCRYPT 2026 [(ePrint)][14]
@@ -48,6 +52,10 @@ Conferences
 Journals
 --------------------------------
 
++ J2. More Efficient Lattice-based OLE from Circuit-private Linear HE with Polynomial Overhead 
+    + (α-β order) Leo de Castro, Duhyeong Kim, Miran Kim, Keewoo Lee, **Seonhong Min**, Yongsoo Song
+    + IACR Communications in Cryptology, Volume 3, Issue 1 [(ePrint)][7] 
+
 + J1. Ring-LWE based encrypted controller with unlimited number of recursive multiplications and effect of error growth 
     + Yeongjun Jang, Joowon Lee, **Seonhong Min**, Hyesun Kwak, Junsoo Kim, Yongsoo Song
     + IEEE Trans. on Control of Network Systems [(arXiv)][5] 
@@ -55,21 +63,13 @@ Journals
 Preprints
 --------------------------------
 
-+ P5. Multi-key Fully Homomorphic Encryption with Non-Interactive Setup in the Plain Model
-    + (α-β order) **Seonhong Min**, Jeongeun Park, Yongsoo Song
-    + In Submission [(ePrint)][16]
-
-+ P4. Distributed Key Generation for Efficient Threshold-CKKS
++ P3. Distributed Key Generation for Efficient Threshold-CKKS
     + **Seonhong Min**, Guillaume Hanrot, Jai Hyun Park, Alain Passelègue, Damien Stehlé
     + In Submission [(ePrint)][15]
 
-+ P3. Ciphertext-Simulatable HE from BFV with Randomized Evaluation
++ P2. Ciphertext-Simulatable HE from BFV with Randomized Evaluation
     + (α-β order) Intak Hwang, **Seonhong Min**, Yongsoo Song
     + In Submission [(ePrint)][9]
-
-+ P2. More Efficient Lattice-based OLE from Circuit-private Linear HE with Polynomial Overhead 
-    + (α-β order) Leo de Castro, Duhyeong Kim, Miran Kim, Keewoo Lee, **Seonhong Min**, Yongsoo Song
-    + In Submission [(ePrint)][7] 
 
 + P1. Functional Bootstrapping for Packed Ciphertexts via Homomorphic LUT Evaluation
     + (α-β order) Dongwon Lee, **Seonhong Min**, Yongsoo Song
