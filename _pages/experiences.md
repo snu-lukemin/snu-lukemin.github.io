@@ -21,6 +21,7 @@ Honors & Awards
 
 Github Repositories
 ------------------------
++ HIENAA [https://github.com/hienaa-org/hienaa]
 + Multi-key TFHE [https://github.com/SNUCP/MKTFHE]
 + Carousel.jl [https://github.com/SNUCP/Carousel.jl]
 + HIENAA.jl [https://github.com/snu-lukemin/HIENAA.jl]
@@ -29,9 +30,11 @@ Github Repositories
 
 Academic Services
 ------------------------
-Reviewer at TCS, DCC, CRYPTO. 
+Reviewer at TCS, DCC, CRYPTO '26, ASIACRYPT '26. 
 
 [https://github.com/SNUCP/MKTFHE]: https://github.com/SNUCP/MKTFHE
 [https://github.com/SNUCP/Carousel.jl]: https://github.com/SNUCP/Carousel.jl
 [https://github.com/snu-lukemin/HIENAA.jl]: https://github.com/snu-lukemin/HIENAA.jl
+[https://github.com/SNUCP/carousel]: https://github.com/SNUCP/carousel
 [https://github.com/SNUCP/simct]: https://github.com/SNUCP/simct
+[https://github.com/hienaa-org/hienaa]: https://github.com/hienaa-org/hienaa
