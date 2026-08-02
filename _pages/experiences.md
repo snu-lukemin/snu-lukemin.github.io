@@ -21,12 +21,12 @@ Honors & Awards
 
 Github Repositories
 ------------------------
-+ HIENAA [https://github.com/hienaa-org/hienaa]
-+ Multi-key TFHE [https://github.com/SNUCP/MKTFHE]
-+ Carousel.jl [https://github.com/SNUCP/Carousel.jl]
-+ HIENAA.jl [https://github.com/snu-lukemin/HIENAA.jl]
-+ Ciphertext Simulatable BFV [https://github.com/SNUCP/simct]
-+ CRS-less MKFHE [https://github.com/SNUCP/carousel]
++ [HIENAA](https://github.com/hienaa-org/hienaa)
++ [Multi-key TFHE](https://github.com/SNUCP/MKTFHE)
++ [Carousel.jl](https://github.com/SNUCP/Carousel.jl)
++ [HIENAA.jl](https://github.com/snu-lukemin/HIENAA.jl)
++ [Ciphertext Simulatable BFV](https://github.com/SNUCP/simct)
++ [CRS-less MKFHE](https://github.com/SNUCP/carousel)
 
 Academic Services
 ------------------------

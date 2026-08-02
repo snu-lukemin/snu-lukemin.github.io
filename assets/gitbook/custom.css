@@ -322,6 +322,178 @@ body {
     }
 }
 
+/* End-of-file flat override */
+html,
+body {
+    font-family: "Pretendard", sans-serif !important;
+    background: #f4f6f9 !important;
+    background-image: none !important;
+    color: #1f2430 !important;
+}
+
+.book,
+.book-summary,
+.book-body,
+.book-body .book-header,
+.book-body .body-inner,
+.page-wrapper,
+.page-inner,
+.markdown-section,
+.navigation,
+.home-page-inner,
+.home-hero__intro,
+.home-hero__panel,
+.home-content,
+.home-hero__copy,
+.hero-card,
+.homepage-section,
+.hero-links a,
+.home-hero__actions a {
+    background: #ffffff !important;
+    background-image: none !important;
+    border-radius: 2px !important;
+    box-shadow: none !important;
+}
+
+.home-page-inner::after,
+.home-hero__copy::before,
+.page-inner::before {
+    content: none !important;
+    background: none !important;
+}
+
+.hero-links a,
+.home-hero__actions a,
+.home-hero__badge,
+.page-nav,
+.page-nav a,
+.quick-links a,
+.content img,
+.home-content img,
+.hero-card img,
+.homepage-section,
+.card {
+    border-radius: 2px !important;
+}
+
+.book-body .book-header,
+.book-body .book-header h1 a,
+.book-body .book-header i,
+.markdown-section,
+.markdown-section p,
+.markdown-section li,
+.markdown-section td,
+.page-inner,
+.home-hero h2,
+.home-hero p,
+.home-hero__eyebrow,
+.home-hero__panel-title,
+.homepage-section,
+.hero-copy h2,
+.hero-copy p,
+.hero-copy .eyebrow,
+.content,
+.content p,
+.content li,
+.page-nav a,
+.quick-links a {
+    font-family: "Pretendard", sans-serif !important;
+}
+
+/* Final flat override */
+html,
+body {
+    font-family: "Pretendard", sans-serif !important;
+    background: #f4f6f9 !important;
+    background-image: none !important;
+    color: #1f2430 !important;
+}
+
+.book,
+.book-summary,
+.book-body,
+.book-body .book-header,
+.book-body .body-inner,
+.page-wrapper,
+.page-inner,
+.markdown-section,
+.navigation,
+.home-page-inner,
+.home-hero__intro,
+.home-hero__panel,
+.home-content,
+.home-hero__copy,
+.hero-card,
+.homepage-section,
+.hero-links a,
+.home-hero__actions a {
+    background: #ffffff !important;
+    background-image: none !important;
+    border-radius: 2px !important;
+    box-shadow: none !important;
+}
+
+.book-summary .summary li a:hover,
+.book-summary .summary li.active > a,
+.home-hero__actions a:hover,
+.hero-links a:hover,
+.page-nav a:hover,
+.content a:hover,
+.page-inner a:hover,
+.markdown-section a:hover {
+    background-image: none !important;
+}
+
+.home-page-inner::after,
+.home-hero__copy::before,
+.page-inner::before {
+    content: none !important;
+    background: none !important;
+}
+
+.hero-links a,
+.home-hero__actions a,
+.home-hero__badge,
+.page-nav,
+.page-nav a,
+.quick-links a,
+.content img,
+.home-content img,
+.hero-card img,
+.homepage-section,
+.card,
+.content img {
+    border-radius: 2px !important;
+}
+
+.hero-card img {
+    border-radius: 2px !important;
+}
+
+.book-body .book-header,
+.book-body .book-header h1 a,
+.book-body .book-header i,
+.markdown-section,
+.markdown-section p,
+.markdown-section li,
+.markdown-section td,
+.page-inner,
+.home-hero h2,
+.home-hero p,
+.home-hero__eyebrow,
+.home-hero__panel-title,
+.homepage-section,
+.hero-copy h2,
+.hero-copy p,
+.hero-copy .eyebrow,
+.content,
+.content p,
+.content li,
+.page-nav a,
+.quick-links a {
+    font-family: "Pretendard", sans-serif !important;
+}
+
 .site-shell .book {
     position: relative;
     z-index: 1;
@@ -608,6 +780,83 @@ body {
 .home-content li {
     font-size: 1rem;
     line-height: 1.8;
+}
+
+/* Flat Pretendard override */
+html,
+body {
+    font-family: "Pretendard", sans-serif;
+    background: #f4f6f9;
+    color: #1f2430;
+}
+
+body {
+    background-image: none;
+}
+
+.book,
+.book-summary,
+.book-body .book-header,
+.page-inner,
+.home-hero__intro,
+.home-hero__panel,
+.home-content,
+.home-hero__copy,
+.hero-card,
+.homepage-section {
+    background: #ffffff;
+    background-image: none;
+    border-radius: 2px;
+    box-shadow: none;
+}
+
+.book,
+.book-body .book-header h1 a,
+.home-hero h2,
+.home-hero p,
+.home-hero__eyebrow,
+.home-hero__panel-title,
+.homepage-section,
+.markdown-section,
+.markdown-section p,
+.markdown-section li,
+.page-inner,
+.home-content {
+    font-family: "Pretendard", sans-serif;
+}
+
+.book.font-family-0,
+.book.font-family-1 {
+    font-family: "Pretendard", sans-serif;
+}
+
+.home-page-inner::after,
+.home-hero__copy::before {
+    content: none;
+}
+
+.home-hero__actions a,
+.hero-links a,
+.home-hero__badge {
+    background: #e4e8ef;
+    background-image: none;
+    border-radius: 2px;
+    box-shadow: none;
+}
+
+.hero-card img,
+.home-content img,
+.content img,
+.quick-links a {
+    border-radius: 2px;
+}
+
+.home-hero__actions a:hover,
+.hero-links a:hover,
+.page-nav a:hover,
+.content a:hover,
+.page-inner a:hover {
+    color: #2f6f8f;
 }
 
 @media (max-width: 900px) {

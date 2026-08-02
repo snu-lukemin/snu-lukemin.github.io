@@ -1,0 +1,129 @@
+/* Final flat Pretendard override */
+html,
+body {
+    font-family: "Pretendard", sans-serif !important;
+    background: #f4f6f9 !important;
+    background-image: none !important;
+    color: #1f2430 !important;
+    overflow-x: hidden !important;
+}
+
+.book,
+.book-summary,
+.book-body,
+.book-body .book-header,
+.book-body .body-inner,
+.page-wrapper,
+.page-inner,
+.markdown-section,
+.navigation,
+.home-page-inner,
+.home-hero__intro,
+.home-hero__panel,
+.home-content,
+.home-hero__copy,
+.hero-card,
+.homepage-section,
+.hero-links a,
+.home-hero__actions a,
+.page-nav,
+.quick-links a,
+.card {
+    background: #ffffff !important;
+    background-image: none !important;
+    border-radius: 2px !important;
+    box-shadow: none !important;
+}
+
+.book,
+.book-summary,
+.book-body,
+.body-inner,
+.page-wrapper,
+.page-inner,
+.markdown-section,
+.home-page-inner,
+.home-hero__intro,
+.home-hero__panel,
+.home-content,
+.home-hero__copy,
+.hero-card,
+.homepage-section {
+    min-width: 0 !important;
+}
+
+.home-page-inner::after,
+.home-hero__copy::before,
+.page-inner::before {
+    content: none !important;
+    background: none !important;
+}
+
+.hero-links a,
+.home-hero__actions a,
+.home-hero__badge,
+.page-nav,
+.page-nav a,
+.quick-links a,
+.content img,
+.home-content img,
+.hero-card img,
+.homepage-section,
+.card {
+    border-radius: 2px !important;
+}
+
+.book-body .book-header,
+.book-body .book-header h1 a,
+.book-body .book-header i,
+.markdown-section,
+.markdown-section p,
+.markdown-section li,
+.markdown-section td,
+.page-inner,
+.home-hero h2,
+.home-hero p,
+.home-hero__eyebrow,
+.home-hero__panel-title,
+.homepage-section,
+.hero-copy h2,
+.hero-copy p,
+.hero-copy .eyebrow,
+.content,
+.content p,
+.content li,
+.page-nav a,
+.quick-links a {
+    font-family: "Pretendard", sans-serif !important;
+}
+
+.markdown-section a,
+.markdown-section li,
+.content a,
+.content li,
+.book-summary .summary li a,
+.book-summary .summary ul li a {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+.book-summary .summary li a {
+    white-space: normal !important;
+    display: block;
+}
+
+.markdown-section img,
+.content img,
+.home-content img,
+img,
+video,
+iframe,
+table,
+pre,
+code {
+    max-width: 100% !important;
+}
+
+pre {
+    overflow-x: auto !important;
+}
