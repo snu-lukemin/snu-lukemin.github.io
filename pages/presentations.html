@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Presentations</title>
+    <link rel="stylesheet" href="../assets/site.css" />
+    <style>
+      .page-body { padding: 1.2rem 0 0; }
+      .page-body h2 {
+        margin: 1.4rem 0 0.7rem;
+        font-size: 1.05rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--cyan);
+      }
+      .content-grid {
+        display: grid;
+        gap: 0.9rem;
+      }
+      .content-card {
+        padding: 1rem 1.1rem;
+        border: 1px solid rgba(31, 36, 48, 0.10);
+        border-radius: 8px;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(245, 247, 252, 0.97));
+        box-shadow: 0 6px 12px rgba(31, 36, 48, 0.06);
+      }
+      .content-card p,
+      .content-card li {
+        line-height: 1.7;
+      }
+      .content-card a { color: var(--cyan); }
+      .content-card a:hover { color: var(--pink); }
+      .content-card li::marker { color: var(--cyan); }
+      .content-list { padding-left: 1rem; margin: 0; }
+      .content-list li {
+        margin-bottom: 0.7rem;
+      }
+      .entry-tag {
+        display: inline-block;
+        margin-right: 0.45rem;
+        margin-bottom: 0.35rem;
+        padding: 0.18rem 0.45rem;
+        border-radius: 5px;
+        background: rgba(59, 130, 246, 0.10);
+        color: var(--cyan);
+        font-size: 0.72rem;
+        border: 1px solid rgba(59, 130, 246, 0.16);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background"></div>
+    <main class="shell">
+      <section class="card">
+        <header class="hero">
+          <div class="page-nav">
+            <a href="../index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="experiences.html">Experiences</a>
+            <a class="active" href="presentations.html">Presentations</a>
+            <a href="publications.html">Publications</a>
+            <a href="trivia.html">Trivia</a>
+          </div>
+        </header>
+        <div class="page-body">
+<div class="content-grid">
+  <div class="content-card">
+    <h2>Presentations</h2>
+    <ul class="content-list">
+      <li><span class="entry-tag">FHE.org</span> Functional Bootstrapping for Packed Ciphertexts via Homomorphic LUT Evaluation <a href="../files/FHEorg-funcboot.pdf">(Slides)</a> <a href="https://www.youtube.com/watch?v=ngOQGLvBsCw">(Video)</a></li>
+      <li><span class="entry-tag">PKC 2024</span> Towards Practical Multi-Key TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity <a href="../files/PKC-MKTFHE.pdf">(Slides)</a></li>
+      <li><span class="entry-tag">FHE.org</span> Faster TFHE Bootstrapping with Block Binary Keys <a href="../files/FHEorg-blockkey.pdf">(Slides)</a> <a href="https://www.youtube.com/watch?v=SkdnewzruNA">(Video)</a></li>
+      <li><span class="entry-tag">AsiaCCS 2023</span> Faster TFHE Bootstrapping with Block Binary Keys <a href="../files/AsiaCCS-blockkey.pdf">(Slides)</a></li>
+      <li><span class="entry-tag">Seoul National University</span> Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity <a href="../files/MKTFHE.pptx">(Slides)</a></li>
+    </ul>
+  </div>
+  <div class="content-card">
+    <h2>Posters</h2>
+    <ul class="content-list">
+      <li><span class="entry-tag">FHE.org 2023</span> Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity <a href="../files/FHEorg-MKTFHE.pdf">(Poster)</a></li>
+      <li><span class="entry-tag">FHE.org 2025</span> Carousel: Blind Rotation Over the Automorphism Group <a href="../files/FHEorg-carousel.pdf">(Poster)</a></li>
+      <li><span class="entry-tag">FHE.org 2025</span> Practical Sanitization for TFHE <a href="../files/FHEorg-sanitisation.pdf">(Poster)</a></li>
+      <li><span class="entry-tag">FHE.org 2025</span> Accelerated Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing <a href="../files/FHEorg-topgear.pdf">(Poster)</a></li>
+    </ul>
+  </div>
+</div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

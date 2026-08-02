@@ -1,25 +1,24 @@
 <!DOCTYPE HTML>
 <html lang="en" >
     <head>
-
         {%- include head.html -%}
 
         {% assign reversed_posts = site.posts | reverse %}
-
         {% if reversed_posts %}
             <link rel="next" href="{{site.baseurl}}{{reversed_posts.first.url}}" />
         {% endif %}
     </head>
-    <body>
-        <div class="book">
+    <body class="site-shell">
+        <div class="ambient ambient-a"></div>
+        <div class="ambient ambient-b"></div>
 
+        <div class="book">
             {%- include toc-date.html -%}
 
             <div class="book-body">
                 <div class="book-header" role="navigation">
-                    <!-- Title -->
                     <h1>
-                        <i class="fa fa-circle-o-notch fa-spin"></i>
+                        <i class="fa fa-shield-alt"></i>
                         {% if page.title %}
                             <a href="." >{{ page.title | escape }}</a>
                         {% else %}
@@ -29,7 +28,32 @@
                 </div>
 
                 <div class="body-inner">
-                    {%- include body.html -%}
+                    <div class="page-wrapper home-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner home-page-inner">
+                            <section class="home-hero">
+                                <div class="home-hero__intro">
+                                    <div class="home-hero__eyebrow">Cryptography • Research • Security</div>
+                                    <h2>Academic presence, distilled into a single elegant homepage.</h2>
+                                    <div class="home-hero__actions">
+                                        <a href="{{ site.url }}/files/CV.pdf">CV</a>
+                                        <a href="https://scholar.google.com/citations?hl=en&user=RRTKuJEAAAAJ">Scholar</a>
+                                    </div>
+                                </div>
+                                <div class="home-hero__panel">
+                                    <div class="home-hero__panel-title">Profile snapshot</div>
+                                    <ul>
+                                        <li>Ph.D. student at Seoul National University</li>
+                                        <li>Advisor: Professor Yongsoo Song</li>
+                                        <li>Interests: FHE, MPC, performance / functionality</li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            <section class="home-content">
+                                {%- include body.html -%}
+                            </section>
+                        </div>
+                    </div>
 
                     {% if reversed_posts %}
                         <a href="{{site.baseurl}}{{reversed_posts.first.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{reversed_posts.first.title}}">
@@ -48,6 +72,5 @@
         </div>
 
         {%- include footer.html -%}
-
     </body>
 </html>

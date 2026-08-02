@@ -9,6 +9,10 @@ layout: post
 Conferences
 --------------------------------
 
++ C11. Distributed Key Generation for Efficient Threshold-CKKS
+    + **Seonhong Min**, Guillaume Hanrot, Jai Hyun Park, Alain Passelègue, Damien Stehlé
+    + ACM CCS 2026 [(ePrint)][15]
+
 + C10. Multi-key Fully Homomorphic Encryption with Non-Interactive Setup in the Plain Model
     + (α-β order) **Seonhong Min**, Jeongeun Park, Yongsoo Song
     + CRYPTO 2026 [(ePrint)][16]
@@ -27,7 +31,7 @@ Conferences
 
 + C6. Practical (Malicious) Circuit Privacy / Sanitization for TFHE
     + (α-β order) Intak Hwang, **Seonhong Min**, Jinyeong Seo, Yongsoo Song
-    + CCS 2025 [(ePrint)][10]
+    + ACM CCS 2025 [(ePrint)][10]
 
 + C5. Efficient Full Domain Functional Bootstrapping from Recursive LUT Decomposition
     + (α-β order) Intak Hwang, Shinwon Lee, **Seonhong Min**, Yongsoo Song
@@ -35,15 +39,15 @@ Conferences
 
 + C4. MatriGear: Accelerated Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing
     + (α-β order) HyunHo Cha, Intak Hwang, **Seonhong Min**, Jinyeong Seo, Yongsoo Song
-    + S&P 2025 [(ePrint)][6]
+    + IEEE S&P 2025 [(ePrint)][6]
 
 + C3. Enhanced CKKS Bootstrapping with Generalized Polynomial Composites Approximation 
     + **Seonhong Min**, Joon-woo Lee, Yongsoo Song
-    + ASIACCS 2025 [(ePrint)][12]
+    + ACM ASIACCS 2025 [(ePrint)][12]
 
 + C2. Faster TFHE Bootstrapping with Block Binary Keys 
     + (α-β order) Changmin Lee, **Seonhong Min**, Jinyeong Seo, Yongsoo Song
-    + ASIACCS 2023 [(ePrint)][3]
+    + ACM ASIACCS 2023 [(ePrint)][3]
 
 + C1. Towards Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity 
     + (α-β order) Hyesun Kwak, **Seonhong Min**, Yongsoo Song
@@ -62,10 +66,6 @@ Journals
 
 Preprints
 --------------------------------
-
-+ P3. Distributed Key Generation for Efficient Threshold-CKKS
-    + **Seonhong Min**, Guillaume Hanrot, Jai Hyun Park, Alain Passelègue, Damien Stehlé
-    + In Submission [(ePrint)][15]
 
 + P2. Ciphertext-Simulatable HE from BFV with Randomized Evaluation
     + (α-β order) Intak Hwang, **Seonhong Min**, Yongsoo Song

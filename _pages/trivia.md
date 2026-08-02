@@ -33,64 +33,68 @@ Skills
 <details>
 <summary>Other Good Albums I Recommend (Alphabetical Order)</summary>
 
-+ 유예 (9와 숫자들)
-+ 201 (검정치마)
-+ TEAM BABY (검정치마)
-+ TEEN TROUBLES (검정치마)
-+ THIRSTY (검정치마)
-+ Monologue (김동률)
-+ 버스커 버스커 (버스커 버스커)
-+ 고질적 신파 (불나방스타쏘세지클럽)
-+ 보편적인 노래 (브로콜리 너마저)
-+ It's Okay, Dear (선우정아)
-+ 가장 보통의 존재 (언니네 이발관)
-+ Asian Prescription (이상은)
-+ 공무도하가 (이상은)
-+ 외롭고 웃긴 가게 (이상은)
-+ 7 (이소라)
-+ 나무로 만든 노래 (이적)
-+ 사랑 (이적)
-+ 숲 (전자양)
-+ 합주와 생활 (전자양)
-+ 밑 (패닉)
-+ 바리 abandoned (한승석 & 정재일)
-+ Abbey Road (The Beatles)
-+ Sgt. Pepper's Lonely Hearts Club Band (The Beatles)
-+ The Beatles (The Beatles)
-+ The Stranger (Billy Joel)
-+ Twin Fantasy (Car Seat Headrest)
-+ Blood Bunny (Chloe Moriondo)
-+ A Rush of Blood to the Head (Coldplay)
-+ Parachutes (Coldplay)
-+ Divide (Ed Sheeran)
-+ Transangelic Exodus (Ezra Furman)
-+ Franz Ferdinand (Franz Ferdinand)
-+ Hot Fuss (The Killers)
-+ Sam's Town (The Killers)
-+ Peasants, Pigs & Astronauts (Kula Shaker)
-+ Imaginal Disk (Magdalena Bay)
-+ 비선형 (Mot)
-+ 이상한 계절 (Mot)
-+ Circle (My Aunt Mary)
-+ Just Pop (My Aunt Mary)
-+ Home (O.O.O)
-+ (What's The Story) Morning Glory? (Oasis)
-+ Definitely Maybe (Oasis)
-+ Ram (Paul Mccartney)
-+ OK Computer (Radiohead)
-+ The Bends (Radiohead)
-+ Silvertwin (Silvertwin)
-+ Bridge Over Troubled Water (Simon & Garfunkel)
-+ Strangeways, Here We Come (The Smiths)
-+ The Smiths (The Smiths)
-+ Pandemic Love (Soragorou Uwanosuke)
-+ Marvin's Marvelous Mechanical Museum (Tally Hall)
-+ The Boy With No Name (Travis)
-+ The Invisible Band (Travis)
-+ Day Off (Verandah Project)
-+ Yankee Hotel Foxtrot (Wilco)
-+ The Rocky Horror Picture Show Soundtrack
-+ The Wicker Man Soundtrack
+<ul>
+<li>유예 (9와 숫자들)</li>
+<li>201 (검정치마)</li>
+<li>TEAM BABY (검정치마)</li>
+<li>TEEN TROUBLES (검정치마)</li>
+<li>THIRSTY (검정치마)</li>
+<li>Monologue (김동률)</li>
+<li>버스커 버스커 (버스커 버스커)</li>
+<li>고질적 신파 (불나방스타쏘세지클럽)</li>
+<li>보편적인 노래 (브로콜리 너마저)</li>
+<li>It's Okay, Dear (선우정아)</li>
+<li>가장 보통의 존재 (언니네 이발관)</li>
+<li>Asian Prescription (이상은)</li>
+<li>공무도하가 (이상은)</li>
+<li>외롭고 웃긴 가게 (이상은)</li>
+<li>7 (이소라)</li>
+<li>나무로 만든 노래 (이적)</li>
+<li>사랑 (이적)</li>
+<li>숲 (전자양)</li>
+<li>합주와 생활 (전자양)</li>
+<li>밑 (패닉)</li>
+<li>바리 abandoned (한승석 & 정재일)</li>
+<li>Abbey Road (The Beatles)</li>
+<li>Sgt. Pepper's Lonely Hearts Club Band (The Beatles)</li>
+<li>The Beatles (The Beatles)</li>
+<li>The Stranger (Billy Joel)</li>
+<li>Twin Fantasy (Car Seat Headrest)</li>
+<li>Blood Bunny (Chloe Moriondo)</li>
+<li>A Rush of Blood to the Head (Coldplay)</li>
+<li>Parachutes (Coldplay)</li>
+<li>Divide (Ed Sheeran)</li>
+<li>Transangelic Exodus (Ezra Furman)</li>
+<li>Orange (Fishmans)</li>
+<li>Franz Ferdinand (Franz Ferdinand)</li>
+<li>Hot Fuss (The Killers)</li>
+<li>Sam's Town (The Killers)</li>
+<li>Peasants, Pigs & Astronauts (Kula Shaker)</li>
+<li>Imaginal Disk (Magdalena Bay)</li>
+<li>비선형 (Mot)</li>
+<li>이상한 계절 (Mot)</li>
+<li>Circle (My Aunt Mary)</li>
+<li>Just Pop (My Aunt Mary)</li>
+<li>Home (O.O.O)</li>
+<li>(What's The Story) Morning Glory? (Oasis)</li>
+<li>Definitely Maybe (Oasis)</li>
+<li>Ram (Paul Mccartney)</li>
+<li>The Guest (Phantom Planet)</li>
+<li>OK Computer (Radiohead)</li>
+<li>The Bends (Radiohead)</li>
+<li>Silvertwin (Silvertwin)</li>
+<li>Bridge Over Troubled Water (Simon & Garfunkel)</li>
+<li>Strangeways, Here We Come (The Smiths)</li>
+<li>The Smiths (The Smiths)</li>
+<li>Pandemic Love (Soragorou Uwanosuke)</li>
+<li>Marvin's Marvelous Mechanical Museum (Tally Hall)</li>
+<li>The Boy With No Name (Travis)</li>
+<li>The Invisible Band (Travis)</li>
+<li>Day Off (Verandah Project)</li>
+<li>Yankee Hotel Foxtrot (Wilco)</li>
+<li>The Rocky Horror Picture Show Soundtrack</li>
+<li>The Wicker Man Soundtrack</li>
+</ul>
 
 </details>
 
