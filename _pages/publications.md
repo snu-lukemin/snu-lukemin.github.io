@@ -9,10 +9,6 @@ layout: post
 Conferences
 --------------------------------
 
-+ C11. Distributed Key Generation for Efficient Threshold-CKKS
-    + **Seonhong Min**, Guillaume Hanrot, Jai Hyun Park, Alain Passelègue, Damien Stehlé
-    + ACM CCS 2026 [(ePrint)][15]
-
 + C10. Multi-key Fully Homomorphic Encryption with Non-Interactive Setup in the Plain Model
     + (α-β order) **Seonhong Min**, Jeongeun Park, Yongsoo Song
     + CRYPTO 2026 [(ePrint)][16]
@@ -66,6 +62,10 @@ Journals
 
 Preprints
 --------------------------------
+
++ P3. Distributed Key Generation for Efficient Threshold-CKKS
+    + **Seonhong Min**, Guillaume Hanrot, Jai Hyun Park, Alain Passelègue, Damien Stehlé
+    + In Submission [(ePrint)][15]
 
 + P2. Ciphertext-Simulatable HE from BFV with Randomized Evaluation
     + (α-β order) Intak Hwang, **Seonhong Min**, Yongsoo Song

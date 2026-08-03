@@ -1,0 +1,89 @@
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{charter}
+
+\usepackage[left=1.8cm, right=1.8cm, top=1.8cm, bottom=1.8cm]{geometry}
+\usepackage{setspace}
+\setstretch{1.04}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage[colorlinks=true, linkcolor=CVPrimary, urlcolor=CVPrimary, citecolor=CVPrimary]{hyperref}
+\usepackage{microtype}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{pagecolor}
+\usepackage{xurl}
+\usepackage{needspace}
+\usepackage{balance}
+
+\definecolor{CVBg}{HTML}{FFFFFF}
+\definecolor{CVPanel}{HTML}{FFFFFF}
+\definecolor{CVLine}{HTML}{D8DCE5}
+\definecolor{CVText}{HTML}{1F2430}
+\definecolor{CVPrimary}{HTML}{2F6F8F}
+\definecolor{CVSecondary}{HTML}{1F2430}
+\definecolor{CVMuted}{HTML}{5F6B87}
+\definecolor{CVHeaderBg}{HTML}{EAF2F8}
+
+\setlength{\parskip}{0.22em}
+\setlength{\parindent}{0pt}
+\setlength{\columnsep}{0.74cm}
+\pagecolor{CVBg}
+\color{CVText}
+\emergencystretch=1.8em
+\Urlmuskip=0mu plus 2mu
+\tolerance=2200
+\pretolerance=900
+\hyphenpenalty=600
+\exhyphenpenalty=400
+\widowpenalty=10000
+\clubpenalty=10000
+
+\setlength{\columnseprule}{0pt}
+
+\setlist[itemize]{
+	leftmargin=1.4em,
+	itemsep=0.2em,
+	topsep=0.2em,
+	parsep=0em,
+	partopsep=0em
+}
+
+\newcommand{\name}[1]{\noindent{\fontsize{27}{29}\selectfont\bfseries\color{CVPrimary} #1}\\[-0.15em]}
+\newcommand{\tagline}[1]{\noindent{\large\color{CVSecondary} #1}\\[0.25em]}
+\newcommand{\contactline}[1]{\noindent{\small\color{CVMuted} #1}\\[0.65em]}
+
+\newcommand{\cvsection}[1]{
+\Needspace{4\baselineskip}
+\vspace{0.58em}
+{\normalsize\bfseries\color{CVPrimary}\textls[60]{\MakeUppercase{#1}}}\\[-0.22em]
+{\color{CVLine}\rule{\linewidth}{0.9pt}}\\[0.34em]
+}
+
+\newcommand{\cvsubsection}[1]{
+\vspace{0.45em}
+{\small\bfseries\color{CVSecondary}\textls[40]{#1}}\\[0.2em]
+}
+
+\newcommand{\pubid}[1]{%
+\begingroup\setlength{\fboxsep}{1.5pt}\colorbox{CVHeaderBg}{\textcolor{CVPrimary}{\scriptsize\bfseries\makebox[2.2em][c]{#1}}}\endgroup
+}
+
+\newcommand{\venue}[1]{{\small\color{CVMuted}\textsc{#1}}}
+
+\newcommand{\cventry}[5]{
+	\noindent
+	\begin{tabularx}{\linewidth}{@{}Xr@{}}
+		{\textbf{#1}} & {\small\color{CVMuted} #4} \\
+		{\color{CVSecondary} #2} & {\small\color{CVMuted} #3}
+	\end{tabularx}
+	\\[-0.35em]
+	#5
+	\vspace{0.45em}
+}
+
+\newcommand{\cvitem}[2]{\textbf{#1}: #2\\}
+
+\newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}

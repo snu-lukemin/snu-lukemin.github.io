@@ -33,7 +33,7 @@ Skills
 <details>
 <summary>Other Good Albums I Recommend (Alphabetical Order)</summary>
 
-<ul>
+<ul style="padding-left: 2.2em;">
 <li>유예 (9와 숫자들)</li>
 <li>201 (검정치마)</li>
 <li>TEAM BABY (검정치마)</li>
