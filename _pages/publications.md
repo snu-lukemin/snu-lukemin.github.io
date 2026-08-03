@@ -63,6 +63,10 @@ Journals
 Preprints
 --------------------------------
 
++ P4. Proving Threshold Regev PKE from Adaptive Hint-MLWE: Efficient, Non-interactive, and CCA Secure
+    + Yisol Hwang, Shuichi Katsumata, **Seonhong Min**, Guilhem Niot, Yongsoo Song
+    + In Submission [(ePrint)][17]
+
 + P3. Distributed Key Generation for Efficient Threshold-CKKS
     + **Seonhong Min**, Guillaume Hanrot, Jai Hyun Park, Alain Passelègue, Damien Stehlé
     + In Submission [(ePrint)][15]
@@ -99,3 +103,4 @@ Others
 [14]: https://eprint.iacr.org/2025/1804
 [15]: https://eprint.iacr.org/2025/2057
 [16]: https://eprint.iacr.org/2026/322
+[17]: https://eprint.iacr.org/2026/1585
