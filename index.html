@@ -6,6 +6,35 @@
     <title>About Me</title>
     <meta name="description" content="Academic homepage of Luke Min" />
     <link rel="stylesheet" href="assets/site.css" />
+    <style>
+      .page-body { padding: 1.2rem 0 0; }
+      .page-body h2 {
+        margin: 1.4rem 0 0.7rem;
+        font-size: 1.05rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--cyan);
+      }
+      .content-grid {
+        display: grid;
+        gap: 0.9rem;
+      }
+      .content-card {
+        padding: 1rem 1.1rem;
+        border: 1px solid rgba(31, 36, 48, 0.10);
+        border-radius: 8px;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(245, 247, 252, 0.97));
+        box-shadow: 0 6px 12px rgba(31, 36, 48, 0.06);
+      }
+      .content-card p,
+      .content-card li {
+        line-height: 1.7;
+      }
+      .content-card a { color: var(--cyan); }
+      .content-card a:hover { color: var(--pink); }
+      .content-card li::marker { color: var(--cyan); }
+      .contact-list { padding-left: 1rem; margin: 0; }
+    </style>
   </head>
   <body>
     <div class="background"></div>
@@ -22,10 +51,11 @@
           </div>
         </header>
 
-        <div class="content">
+        <div class="content-grid">
           <img src="images/profile.jpg" alt="Profile photo of Luke Min" />
 
-          <div>
+          <div class="content-card">
+            <h2>Who Am I?</h2>
             <p>
               I am a Ph.D student in the Department of Computer Science and Engineering, Seoul National University (SNU). My main research topics are fully homomorphic encryption (FHE) and multi-party computation (MPC). Especially, I specialise in enhancing the performance / functionality of a variety of FHE schemes.
             </p>
@@ -33,6 +63,13 @@
             <p>
               My advisor is Professor <a href="https://yongsoosong.github.io">Yongsoo Song</a>. I graduated Daegu Science High School (2018) and did a B.S. in Mathematics at Seoul National University (SNU). For a complete list of my publications, please refer to my <a href="files/CV.pdf">CV</a>, or <a href="https://scholar.google.com/citations?hl=en&user=RRTKuJEAAAAJ">Google Scholar</a>.
             </p>
+          </div>
+          <div class="content-card">
+            <h2>Disclaimer</h2>
+            <p>
+              <a href="https://youtu.be/uc6f_2nPSX8?si=mIO_RrMg5luWaK56"> Domo Arigato Mr Roboto</a>; I used ChatGPT codex to build this homepage.
+            </p>
+          </div>
           </div>
         </div>
       </section>
