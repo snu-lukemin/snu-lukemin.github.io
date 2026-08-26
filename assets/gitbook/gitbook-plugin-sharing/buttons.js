@@ -17,7 +17,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             }
         },
         'github': {
-            'label': 'Github',
+            'label': 'GitHub',
             'icon': 'fa fa-github',
             'onClick': function(e) {
                 e.preventDefault();
@@ -96,8 +96,10 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             if (!opts[sideId]) return;
 
             var onClick = site.onClick;
+            var actionLabel = 'Share on ' + site.label + ' (opens in a new window)';
 
             if (sideId === "github" && opts["github_link"] !== undefined && opts["github_link"] !== "") {
+                actionLabel = 'Open GitHub (opens in a new window)';
                 onClick = function(e) {
                     e.preventDefault();
                     window.open(opts["github_link"]);
@@ -112,7 +114,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
 
             gitbook.toolbar.createButton({
                 icon: site.icon,
-                label: site.text,
+                label: actionLabel,
                 position: 'right',
                 onClick: onClick
             });

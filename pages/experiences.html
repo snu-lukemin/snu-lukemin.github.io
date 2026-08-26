@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Experiences</title>
-    <link rel="stylesheet" href="../assets/site.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Experiences | Seonhong Min</title>
+    <link rel="stylesheet" href="../assets/site.css">
     <style>
       .page-body { padding: 1.2rem 0 0; }
       .page-body h2 {
@@ -36,20 +36,22 @@
     </style>
   </head>
   <body>
-    <div class="background"></div>
-    <main class="shell">
-      <section class="card">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="background" aria-hidden="true"></div>
+    <div class="shell">
+      <div class="card">
         <header class="hero">
-          <div class="page-nav">
+          <nav class="page-nav" aria-label="Primary">
             <a href="../index.html">Home</a>
             <a href="contact.html">Contact</a>
-            <a class="active" href="experiences.html">Experiences</a>
+            <a class="active" href="experiences.html" aria-current="page">Experiences</a>
             <a href="presentations.html">Presentations</a>
             <a href="publications.html">Publications</a>
             <a href="trivia.html">Trivia</a>
-          </div>
+          </nav>
         </header>
-        <div class="page-body">
+        <main class="page-body" id="main-content" tabindex="-1">
+<h1 class="page-title">Experiences</h1>
 <div class="content-grid">
   <div class="content-card">
     <h2>Experiences / Education</h2>
@@ -84,8 +86,8 @@
     <p>Reviewer at TCS, DCC, CRYPTO '26, ASIACRYPT '26.</p>
   </div>
 </div>
-        </div>
-      </section>
-    </main>
+        </main>
+      </div>
+    </div>
   </body>
 </html>

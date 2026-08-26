@@ -1,9 +1,11 @@
 ---
 layout: search-base
+title: Search
 ---
 
 <!-- Slightly Modified from _layouts/home.html -->
 
-<div id="book-search-input-inside" role="search">
-    <input type="text" placeholder="Type to search" />
+<div id="book-search-input-inside" role="search" aria-label="Page search">
+    <label class="visually-hidden" for="page-search-input">Search this site</label>
+    <input id="page-search-input" type="search" placeholder="Type to search" autocomplete="off" />
 </div>

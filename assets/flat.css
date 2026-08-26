@@ -127,3 +127,123 @@ code {
 pre {
     overflow-x: auto !important;
 }
+
+/* Accessibility fixes for the legacy GitBook search route. */
+.visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+.gitbook-skip-link {
+    position: fixed;
+    top: 0.75rem;
+    left: 0.75rem;
+    z-index: 1000;
+    min-height: 44px;
+    padding: 0.7rem 1rem;
+    color: #ffffff !important;
+    background: #1f2430 !important;
+    transform: translateY(calc(-100% - 1rem));
+}
+
+.gitbook-skip-link:focus {
+    transform: translateY(0);
+}
+
+.book-body .book-header h1 a,
+.page-inner h1,
+.page-inner h2,
+.page-inner h3,
+.page-inner p,
+.page-inner li,
+.page-inner td {
+    color: #1f2430 !important;
+}
+
+.book-body .book-header .btn i {
+    color: #2f6f8f !important;
+}
+
+.book-body .book-header .btn:hover i {
+    color: #983462 !important;
+}
+
+.book-summary ul.summary li a,
+.book-summary ul.summary li span {
+    color: #1f2430 !important;
+    background: #ffffff !important;
+}
+
+.book-summary ul.summary li.active > a,
+.book-summary ul.summary li a[aria-current="page"] {
+    color: #2f6f8f !important;
+    text-decoration: underline !important;
+    text-decoration-thickness: 0.1em !important;
+    text-underline-offset: 0.16em !important;
+}
+
+.book .book-header .dropdown-menu {
+    color: #1f2430 !important;
+    background: #ffffff !important;
+    border: 1px solid #687386 !important;
+}
+
+.book .book-header .dropdown-menu .button {
+    color: #1f2430 !important;
+    background: #ffffff !important;
+}
+
+.book .book-header .dropdown-menu .button:hover,
+.book .book-header .dropdown-menu .button:focus-visible {
+    color: #ffffff !important;
+    background: #2f6f8f !important;
+}
+
+.page-inner a {
+    color: #2f6f8f !important;
+    text-decoration: underline !important;
+    text-decoration-thickness: 0.1em !important;
+    text-underline-offset: 0.16em !important;
+}
+
+.book a:focus-visible,
+.book button:focus-visible,
+.book input:focus-visible,
+.book summary:focus-visible,
+.gitbook-skip-link:focus-visible {
+    outline: 3px solid #7c3aed !important;
+    outline-offset: 3px !important;
+}
+
+#book-search-input input,
+#book-search-input-inside input {
+    min-height: 44px;
+    color: #1f2430 !important;
+    background: #ffffff !important;
+    border: 2px solid #5f6b87 !important;
+    border-radius: 2px !important;
+    padding: 0.55rem 0.7rem !important;
+}
+
+#book-search-results .search-results .search-results-title {
+    color: #1f2430 !important;
+    opacity: 1 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}

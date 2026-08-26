@@ -7,36 +7,37 @@
 
         {% assign reversed_posts = site.posts | reverse %}
 
-        {% if reversed_posts %}
+        {% if reversed_posts.size > 0 %}
             <link rel="next" href="{{site.baseurl}}{{reversed_posts.first.url}}" />
         {% endif %}
     </head>
     <body>
+        <a class="skip-link gitbook-skip-link" href="#main-content">Skip to main content</a>
         <div class="book">
 
             {%- include toc-date.html -%}
 
             <div class="book-body">
-                <div class="book-header" role="navigation">
+                <header class="book-header">
                     <!-- Title -->
                     <h1>
-                        <i class="fa fa-circle-o-notch fa-spin"></i>
+                        <i class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i>
                         {% if page.title %}
-                            <a href="." >{{ page.title | escape }}</a>
+                            <a href="{{site.baseurl}}/">{{ page.title | escape }}</a>
                         {% else %}
-                            <a href="." >{{ site.title | escape }}</a>
+                            <a href="{{site.baseurl}}/">{{ site.title | escape }}</a>
                         {% endif %}
                     </h1>
-                </div>
+                </header>
 
                 <div class="body-inner">
-                    <div class="page-wrapper" tabindex="-1" role="main">
+                    <main class="page-wrapper" id="main-content" tabindex="-1">
                         <div class="page-inner">
                             <section class="normal markdown-section">
                                 {% if page.title %}
-                                    <h1 id="{{ page.id }}">{{ page.title | escape }}</h1>
+                                    <h1 id="search-page-title">{{ page.title | escape }}</h1>
                                 {% else %}
-                                    <h1 id="{{ page.id }}">{{ site.title | escape }}</h1>
+                                    <h1 id="search-page-title">{{ site.title | escape }}</h1>
                                 {% endif %}
 
                                 <br />
@@ -52,7 +53,7 @@
                                 {%- include search.html -%}
                             </div>
                         </div>
-                    </div>
+                    </main>
                 </div>
             </div>
 

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me</title>
-    <meta name="description" content="Academic homepage of Luke Min" />
-    <link rel="stylesheet" href="assets/site.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seonhong Min (Luke Min) | Cryptography Researcher</title>
+    <meta name="description" content="Academic homepage of Luke Min">
+    <link rel="stylesheet" href="assets/site.css">
     <style>
       .page-body { padding: 1.2rem 0 0; }
       .page-body h2 {
@@ -37,22 +37,25 @@
     </style>
   </head>
   <body>
-    <div class="background"></div>
-    <main class="shell">
-      <section class="card">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="background" aria-hidden="true"></div>
+    <div class="shell">
+      <div class="card">
         <header class="hero">
-          <div class="page-nav">
-            <a class="active" href="index.html">Home</a>
+          <nav class="page-nav" aria-label="Primary">
+            <a class="active" href="index.html" aria-current="page">Home</a>
             <a href="pages/contact.html">Contact</a>
             <a href="pages/experiences.html">Experiences</a>
             <a href="pages/presentations.html">Presentations</a>
             <a href="pages/publications.html">Publications</a>
             <a href="pages/trivia.html">Trivia</a>
-          </div>
+          </nav>
         </header>
 
-        <div class="content-grid">
-          <img src="images/profile.jpg" alt="Profile photo of Luke Min" />
+        <main class="page-body" id="main-content" tabindex="-1">
+          <h1 class="page-title">Seonhong Min</h1>
+          <div class="content-grid">
+          <img class="profile-photo" src="images/profile.jpg" width="299" height="459" alt="Portrait of Seonhong Min">
 
           <div class="content-card">
             <h2>Who Am I?</h2>
@@ -61,18 +64,18 @@
             </p>
 
             <p>
-              My advisor is Professor <a href="https://yongsoosong.github.io">Yongsoo Song</a>. I graduated Daegu Science High School (2018) and did a B.S. in Mathematics at Seoul National University (SNU). For a complete list of my publications, please refer to my <a href="files/CV.pdf">CV</a>, or <a href="https://scholar.google.com/citations?hl=en&user=RRTKuJEAAAAJ">Google Scholar</a>.
+              My advisor is Professor <a href="https://yongsoosong.github.io">Yongsoo Song</a>. I graduated Daegu Science High School (2018) and did a B.S. in Mathematics at Seoul National University (SNU). For a complete list of my publications, please refer to my <a href="files/CV.pdf">CV (PDF)</a>, or <a href="https://scholar.google.com/citations?hl=en&user=RRTKuJEAAAAJ">Google Scholar</a>.
             </p>
           </div>
           <div class="content-card">
             <h2>Disclaimer</h2>
             <p>
-              <a href="https://youtu.be/uc6f_2nPSX8?si=mIO_RrMg5luWaK56"> Domo Arigato Mr Roboto</a>; I used ChatGPT codex to build this homepage.
+              <a href="https://youtu.be/uc6f_2nPSX8?si=mIO_RrMg5luWaK56">Domo Arigato Mr Roboto</a>; I used ChatGPT Codex to build this homepage.
             </p>
           </div>
           </div>
-        </div>
-      </section>
-    </main>
+        </main>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,10 +1,11 @@
-<div class="book-summary">
-    <nav role="navigation">
-        <div id="book-search-input" role="search">
-            <input type="text" placeholder="Type to search" />
+<div class="book-summary" id="site-navigation">
+    <nav aria-label="Site">
+        <div id="book-search-input" role="search" aria-label="Sidebar search">
+            <label class="visually-hidden" for="sidebar-search-input">Search this site</label>
+            <input id="sidebar-search-input" type="search" placeholder="Type to search" autocomplete="off" />
         </div>
-        <div id="book-search-input-link" role="search">
-            <a href="{{site.baseurl}}/assets/search.html">Click to Search</a>
+        <div id="book-search-input-link">
+            <a href="{{site.baseurl}}/assets/search.html">Search this site</a>
         </div>
         <ul class="summary">
             {% if page.url == "/index.html" or page.url == "/" %}
@@ -12,7 +13,7 @@
             {% else %}
             <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
             {% endif %}
-                <a href="{{site.baseurl}}/">
+                <a href="{{site.baseurl}}/"{% if page.url == "/index.html" or page.url == "/" %} aria-current="page"{% endif %}>
                     {{ site.title | escape }}
                 </a>
             </li>
@@ -34,7 +35,7 @@
                         {% else %}
                         <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{post.url}}">
                         {% endif %}
-                            <a href="{{site.baseurl}}{{post.url}}">
+                            <a href="{{site.baseurl}}{{post.url}}"{% if page.url == post.url %} aria-current="page"{% endif %}>
                                 {{ post.title | escape }}
                             </a>
                             {% if site.toc.enabled %}

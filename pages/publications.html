@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Publications</title>
-    <link rel="stylesheet" href="../assets/site.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Publications | Seonhong Min</title>
+    <link rel="stylesheet" href="../assets/site.css">
     <style>
       .page-body { padding: 1.2rem 0 0; }
       .page-body h2 {
@@ -24,10 +24,9 @@
         border-radius: 8px;
         background: linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(245, 247, 252, 0.97));
         box-shadow: 0 6px 12px rgba(31, 36, 48, 0.06);
-        transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+        transition: border-color 0.25s ease, background 0.25s ease;
       }
       .pub-item:hover {
-        transform: translateY(-2px);
         border-color: rgba(111, 95, 168, 0.24);
         background: rgba(255, 255, 255, 0.98);
       }
@@ -59,7 +58,6 @@
       }
       .pub-links a {
         color: var(--cyan);
-        text-decoration: none;
       }
       .pub-item li::marker { color: var(--cyan); }
       .pub-links a:hover { color: var(--pink); }
@@ -67,135 +65,137 @@
     </style>
   </head>
   <body>
-    <div class="background"></div>
-    <main class="shell">
-      <section class="card">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="background" aria-hidden="true"></div>
+    <div class="shell">
+      <div class="card">
         <header class="hero">
-          <div class="page-nav">
+          <nav class="page-nav" aria-label="Primary">
             <a href="../index.html">Home</a>
             <a href="contact.html">Contact</a>
             <a href="experiences.html">Experiences</a>
             <a href="presentations.html">Presentations</a>
-            <a class="active" href="publications.html">Publications</a>
+            <a class="active" href="publications.html" aria-current="page">Publications</a>
             <a href="trivia.html">Trivia</a>
-          </div>
+          </nav>
         </header>
-        <div class="page-body">
+        <main class="page-body" id="main-content" tabindex="-1">
+<h1 class="page-title">Publications</h1>
 <h2>Conferences</h2>
 <div class="pub-list">
   <article class="pub-item">
-    <p class="pub-title">C10. Multi-key Fully Homomorphic Encryption with Non-Interactive Setup in the Plain Model</p>
+    <h3 class="pub-title">C10. Multi-key Fully Homomorphic Encryption with Non-Interactive Setup in the Plain Model</h3>
     <div class="pub-meta"><span class="pub-chip">CRYPTO 2026</span></div>
     <p class="pub-authors">(α-β order) <strong>Seonhong Min</strong>, Jeongeun Park, Yongsoo Song</p>
-    <div class="pub-links"><a href="https://eprint.iacr.org/2026/322">ePrint</a></div>
+    <div class="pub-links"><a href="https://eprint.iacr.org/2026/322">View paper C10 on ePrint</a></div>
   </article>
   <article class="pub-item">
-    <p class="pub-title">C9. HERDS: Multi-Key Fully Homomorphic Encryption with Sublinear Bootstrapping</p>
+    <h3 class="pub-title">C9. HERDS: Multi-Key Fully Homomorphic Encryption with Sublinear Bootstrapping</h3>
     <div class="pub-meta"><span class="pub-chip">EUROCRYPT 2026</span></div>
     <p class="pub-authors">Binwu Xiang, <strong>Seonhong Min</strong>, Intak Hwang, Zhiwei Wang, Haoqi He, Yuanju Wei, Kang Yang, Jiang Zhang, Yi Deng, Yu Yu</p>
-    <div class="pub-links"><a href="https://eprint.iacr.org/2025/1804">ePrint</a></div>
+    <div class="pub-links"><a href="https://eprint.iacr.org/2025/1804">View paper C9 on ePrint</a></div>
   </article>
   <article class="pub-item">
-    <p class="pub-title">C8. On the Security and Privacy of CKKS-based Homomorphic Evaluation Protocols</p>
+    <h3 class="pub-title">C8. On the Security and Privacy of CKKS-based Homomorphic Evaluation Protocols</h3>
     <div class="pub-meta"><span class="pub-chip">ASIACRYPT 2025</span></div>
     <p class="pub-authors">(α-β order) Intak Hwang, <strong>Seonhong Min</strong>, Jinyeong Seo, Yongsoo Song</p>
-    <div class="pub-links"><a href="https://eprint.iacr.org/2025/382">ePrint</a></div>
+    <div class="pub-links"><a href="https://eprint.iacr.org/2025/382">View paper C8 on ePrint</a></div>
   </article>
   <article class="pub-item">
-    <p class="pub-title">C7. Carousel: Fully Homomorphic Encryption with Bootstrapping over Automorphism Group</p>
+    <h3 class="pub-title">C7. Carousel: Fully Homomorphic Encryption with Bootstrapping over Automorphism Group</h3>
     <div class="pub-meta"><span class="pub-chip">ASIACRYPT 2025</span></div>
     <p class="pub-authors">(α-β order) Intak Hwang, <strong>Seonhong Min</strong>, Yongsoo Song</p>
-    <div class="pub-links"><a href="https://eprint.iacr.org/2024/2032">ePrint</a></div>
+    <div class="pub-links"><a href="https://eprint.iacr.org/2024/2032">View paper C7 on ePrint</a></div>
   </article>
   <article class="pub-item">
-    <p class="pub-title">C6. Practical (Malicious) Circuit Privacy / Sanitization for TFHE</p>
+    <h3 class="pub-title">C6. Practical (Malicious) Circuit Privacy / Sanitization for TFHE</h3>
     <div class="pub-meta"><span class="pub-chip">ACM CCS 2025</span></div>
     <p class="pub-authors">(α-β order) Intak Hwang, <strong>Seonhong Min</strong>, Jinyeong Seo, Yongsoo Song</p>
-    <div class="pub-links"><a href="https://eprint.iacr.org/2025/216">ePrint</a></div>
+    <div class="pub-links"><a href="https://eprint.iacr.org/2025/216">View paper C6 on ePrint</a></div>
   </article>
   <article class="pub-item">
-    <p class="pub-title">C5. Efficient Full Domain Functional Bootstrapping from Recursive LUT Decomposition</p>
+    <h3 class="pub-title">C5. Efficient Full Domain Functional Bootstrapping from Recursive LUT Decomposition</h3>
     <div class="pub-meta"><span class="pub-chip">SAC 2025</span></div>
     <p class="pub-authors">(α-β order) Intak Hwang, Shinwon Lee, <strong>Seonhong Min</strong>, Yongsoo Song</p>
-    <div class="pub-links"><a href="https://eprint.iacr.org/2025/1255">ePrint</a></div>
+    <div class="pub-links"><a href="https://eprint.iacr.org/2025/1255">View paper C5 on ePrint</a></div>
   </article>
   <article class="pub-item">
-    <p class="pub-title">C4. MatriGear: Accelerated Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing</p>
+    <h3 class="pub-title">C4. MatriGear: Accelerated Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing</h3>
     <div class="pub-meta"><span class="pub-chip">IEEE S&amp;P 2025</span></div>
     <p class="pub-authors">(α-β order) HyunHo Cha, Intak Hwang, <strong>Seonhong Min</strong>, Jinyeong Seo, Yongsoo Song</p>
-    <div class="pub-links"><a href="https://eprint.iacr.org/2024/1502">ePrint</a></div>
+    <div class="pub-links"><a href="https://eprint.iacr.org/2024/1502">View paper C4 on ePrint</a></div>
   </article>
   <article class="pub-item">
-    <p class="pub-title">C3. Enhanced CKKS Bootstrapping with Generalized Polynomial Composites Approximation</p>
+    <h3 class="pub-title">C3. Enhanced CKKS Bootstrapping with Generalized Polynomial Composites Approximation</h3>
     <div class="pub-meta"><span class="pub-chip">ACM ASIACCS 2025</span></div>
     <p class="pub-authors"><strong>Seonhong Min</strong>, Joon-woo Lee, Yongsoo Song</p>
-    <div class="pub-links"><a href="https://eprint.iacr.org/2025/429">ePrint</a></div>
+    <div class="pub-links"><a href="https://eprint.iacr.org/2025/429">View paper C3 on ePrint</a></div>
   </article>
   <article class="pub-item">
-    <p class="pub-title">C2. Faster TFHE Bootstrapping with Block Binary Keys</p>
+    <h3 class="pub-title">C2. Faster TFHE Bootstrapping with Block Binary Keys</h3>
     <div class="pub-meta"><span class="pub-chip">ACM ASIACCS 2023</span></div>
     <p class="pub-authors">(α-β order) Changmin Lee, <strong>Seonhong Min</strong>, Jinyeong Seo, Yongsoo Song</p>
-    <div class="pub-links"><a href="https://eprint.iacr.org/2023/958">ePrint</a></div>
+    <div class="pub-links"><a href="https://eprint.iacr.org/2023/958">View paper C2 on ePrint</a></div>
   </article>
   <article class="pub-item">
-    <p class="pub-title">C1. Towards Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity</p>
+    <h3 class="pub-title">C1. Towards Practical MK-TFHE: Parallelizable, Key-Compatible, Quasi-Linear Complexity</h3>
     <div class="pub-meta"><span class="pub-chip">PKC 2024</span></div>
     <p class="pub-authors">(α-β order) Hyesun Kwak, <strong>Seonhong Min</strong>, Yongsoo Song</p>
-    <div class="pub-links"><a href="https://eprint.iacr.org/2022/1460">ePrint</a></div>
+    <div class="pub-links"><a href="https://eprint.iacr.org/2022/1460">View paper C1 on ePrint</a></div>
   </article>
 </div>
 <h2>Journals</h2>
 <div class="pub-list">
   <article class="pub-item">
-    <p class="pub-title">J2. More Efficient Lattice-based OLE from Circuit-private Linear HE with Polynomial Overhead</p>
+    <h3 class="pub-title">J2. More Efficient Lattice-based OLE from Circuit-private Linear HE with Polynomial Overhead</h3>
     <div class="pub-meta"><span class="pub-chip">IACR Communications in Cryptology</span></div>
     <p class="pub-authors">(α-β order) Leo de Castro, Duhyeong Kim, Miran Kim, Keewoo Lee, <strong>Seonhong Min</strong>, Yongsoo Song</p>
-    <div class="pub-links"><a href="https://eprint.iacr.org/2024/1534">ePrint</a></div>
+    <div class="pub-links"><a href="https://eprint.iacr.org/2024/1534">View paper J2 on ePrint</a></div>
   </article>
   <article class="pub-item">
-    <p class="pub-title">J1. Ring-LWE based encrypted controller with unlimited number of recursive multiplications and effect of error growth</p>
+    <h3 class="pub-title">J1. Ring-LWE based encrypted controller with unlimited number of recursive multiplications and effect of error growth</h3>
     <div class="pub-meta"><span class="pub-chip">IEEE Trans. on Control of Network Systems</span></div>
     <p class="pub-authors">Yeongjun Jang, Joowon Lee, <strong>Seonhong Min</strong>, Hyesun Kwak, Junsoo Kim, Yongsoo Song</p>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2406.14372">arXiv</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2406.14372">View paper J1 on arXiv</a></div>
   </article>
 </div>
 <h2>Preprints</h2>
 <div class="pub-list">
   <article class="pub-item">
-    <p class="pub-title">P4. Proving Threshold Regev PKE from Adaptive Hint-MLWE: Efficient, Non-interactive, and CCA Secure </p>
+    <h3 class="pub-title">P4. Proving Threshold Regev PKE from Adaptive Hint-MLWE: Efficient, Non-interactive, and CCA Secure</h3>
     <div class="pub-meta"><span class="pub-chip">In Submission</span></div>
     <p class="pub-authors">(α-β order) Yisol Hwang, Shuichi Katsumata, <strong>Seonhong Min</strong>, Guilhem Niot, Yongsoo Song</p>
-    <div class="pub-links"><a href="https://eprint.iacr.org/2026/1585">ePrint</a></div>
+    <div class="pub-links"><a href="https://eprint.iacr.org/2026/1585">View paper P4 on ePrint</a></div>
   </article>
   <article class="pub-item">
-    <p class="pub-title">P3. Distributed Key Generation for Efficient Threshold-CKKS</p>
+    <h3 class="pub-title">P3. Distributed Key Generation for Efficient Threshold-CKKS</h3>
     <div class="pub-meta"><span class="pub-chip">In Submission</span></div>
     <p class="pub-authors"><strong>Seonhong Min</strong>, Guillaume Hanrot, Jai Hyun Park, Alain Passelègue, Damien Stehlé</p>
-    <div class="pub-links"><a href="https://eprint.iacr.org/2025/2057">ePrint</a></div>
+    <div class="pub-links"><a href="https://eprint.iacr.org/2025/2057">View paper P3 on ePrint</a></div>
   </article>
   <article class="pub-item">
-    <p class="pub-title">P2. Ciphertext-Simulatable HE from BFV with Randomized Evaluation</p>
+    <h3 class="pub-title">P2. Ciphertext-Simulatable HE from BFV with Randomized Evaluation</h3>
     <div class="pub-meta"><span class="pub-chip">In Submission</span></div>
     <p class="pub-authors">(α-β order) Intak Hwang, <strong>Seonhong Min</strong>, Yongsoo Song</p>
-    <div class="pub-links"><a href="https://eprint.iacr.org/2025/203">ePrint</a></div>
+    <div class="pub-links"><a href="https://eprint.iacr.org/2025/203">View paper P2 on ePrint</a></div>
   </article>
   <article class="pub-item">
-    <p class="pub-title">P1. Functional Bootstrapping for Packed Ciphertexts via Homomorphic LUT Evaluation</p>
+    <h3 class="pub-title">P1. Functional Bootstrapping for Packed Ciphertexts via Homomorphic LUT Evaluation</h3>
     <div class="pub-meta"><span class="pub-chip">In Submission</span></div>
     <p class="pub-authors">(α-β order) Dongwon Lee, <strong>Seonhong Min</strong>, Yongsoo Song</p>
-    <div class="pub-links"><a href="https://eprint.iacr.org/2024/181">ePrint</a></div>
+    <div class="pub-links"><a href="https://eprint.iacr.org/2024/181">View paper P1 on ePrint</a></div>
   </article>
 </div>
 <h2>Others</h2>
 <div class="pub-list">
   <article class="pub-item">
-    <p class="pub-title">Convergence Of The Sequence kn-p And Its Properties</p>
+    <h3 class="pub-title">Convergence Of The Sequence kn-p And Its Properties</h3>
     <div class="pub-meta"><span class="pub-chip">Dissertation</span></div>
-    <div class="pub-links"><a href="../files/kn-p.pdf">Link</a></div>
+    <div class="pub-links"><a href="../files/kn-p.pdf">Read the dissertation (PDF)</a></div>
   </article>
 </div>
-        </div>
-      </section>
-    </main>
+        </main>
+      </div>
+    </div>
   </body>
 </html>

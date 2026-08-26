@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trivia</title>
-    <link rel="stylesheet" href="../assets/site.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trivia | Seonhong Min</title>
+    <link rel="stylesheet" href="../assets/site.css">
     <style>
       .page-body { padding: 1.2rem 0 0; }
       .page-body h2 {
@@ -34,25 +34,27 @@
       .content-card li::marker { color: var(--cyan); }
       .content-list { padding-left: 1rem; margin: 0; }
       details { margin-top: 0.8rem; }
-      summary { cursor: pointer; color: var(--cyan); }
+      summary { cursor: pointer; }
       details .content-list { padding-left: 2.2rem; }
     </style>
   </head>
   <body>
-    <div class="background"></div>
-    <main class="shell">
-      <section class="card">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="background" aria-hidden="true"></div>
+    <div class="shell">
+      <div class="card">
         <header class="hero">
-          <div class="page-nav">
+          <nav class="page-nav" aria-label="Primary">
             <a href="../index.html">Home</a>
             <a href="contact.html">Contact</a>
             <a href="experiences.html">Experiences</a>
             <a href="presentations.html">Presentations</a>
             <a href="publications.html">Publications</a>
-            <a class="active" href="trivia.html">Trivia</a>
-          </div>
+            <a class="active" href="trivia.html" aria-current="page">Trivia</a>
+          </nav>
         </header>
-        <div class="page-body">
+        <main class="page-body" id="main-content" tabindex="-1">
+<h1 class="page-title">Trivia</h1>
 <div class="content-grid">
   <div class="content-card">
     <h2>About Me</h2>
@@ -164,8 +166,8 @@
     </ul>
   </div>
 </div>
-        </div>
-      </section>
-    </main>
+        </main>
+      </div>
+    </div>
   </body>
 </html>
