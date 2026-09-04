@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Seonhong Min (Luke Min) | Cryptography Researcher</title>
-    <meta name="description" content="Academic homepage of Luke Min">
+    <meta name="description" content="Seonhong Min is a cryptography researcher at Seoul National University working on lattice-based cryptography and fully homomorphic encryption.">
     <link rel="stylesheet" href="assets/site.css">
     <style>
       .page-body { padding: 1.2rem 0 0; }
@@ -33,7 +33,92 @@
       .content-card a { color: var(--cyan); }
       .content-card a:hover { color: var(--pink); }
       .content-card li::marker { color: var(--cyan); }
-      .contact-list { padding-left: 1rem; margin: 0; }
+      .intro-grid {
+        display: grid;
+        grid-template-columns: minmax(190px, 240px) minmax(0, 1fr);
+        gap: 1.25rem;
+        align-items: start;
+      }
+      .intro-grid .profile-photo {
+        width: 100%;
+        border: 1px solid rgba(31, 36, 48, 0.08);
+        border-radius: 2px;
+        box-shadow: 0 2px 6px rgba(31, 36, 48, 0.04);
+      }
+      .profile-copy .page-title { margin-bottom: 0.45rem; }
+      .profile-role {
+        margin: 0 0 1rem;
+        color: var(--muted);
+        font-size: 1.08rem;
+        font-weight: 700;
+      }
+      .profile-summary { margin-bottom: 0.75rem; }
+      .profile-affiliation {
+        margin-bottom: 0;
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+      .signal-label {
+        margin: 1rem 0 0.45rem;
+        color: var(--muted);
+        font-size: 0.76rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .venue-list,
+      .topic-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .venue-list li,
+      .topic-list li,
+      .venue-chip {
+        display: inline-block;
+        padding: 0.16rem 0.45rem;
+        border: 1px solid rgba(59, 130, 246, 0.16);
+        border-radius: 5px;
+        background: rgba(59, 130, 246, 0.10);
+        color: var(--cyan);
+        font-size: 0.72rem;
+        line-height: 1.5;
+      }
+      .selected-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .selected-publication {
+        padding: 0.9rem 0;
+        border-top: 1px solid var(--line);
+      }
+      .selected-publication:first-child {
+        padding-top: 0;
+        border-top: 0;
+      }
+      .selected-publication:last-child { padding-bottom: 0; }
+      .selected-publication h3 {
+        margin: 0.4rem 0 0.35rem;
+        font-size: 1rem;
+        line-height: 1.45;
+      }
+      .publication-links {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+      .section-link { margin: 1rem 0 0; }
+      .research-copy { margin: 0 0 0.8rem; }
+      .disclaimer { color: var(--muted); }
+      @media (max-width: 680px) {
+        .intro-grid { grid-template-columns: 1fr; }
+        .profile-copy { order: -1; }
+        .intro-grid .profile-photo { max-width: 220px; }
+      }
     </style>
   </head>
   <body>
@@ -54,26 +139,99 @@
         </header>
 
         <main class="page-body" id="main-content" tabindex="-1">
-          <h1 class="page-title">Seonhong Min</h1>
           <div class="content-grid">
-          <img class="profile-photo" src="images/profile.jpg" width="299" height="459" alt="Portrait of Seonhong Min">
+            <section class="intro-grid" aria-labelledby="profile-title">
+              <img class="profile-photo" src="images/profile.jpg" width="299" height="459">
 
-          <div class="content-card">
-            <h2>Who Am I?</h2>
-            <p>
-              I am a Ph.D student in the Department of Computer Science and Engineering led by <a href="https://yongsoosong.github.io">Prof. Yongsoo Song</a> at <a href="crypto.snu.ac.kr">Seoul National University</a>. I graduated from <a href="dshs.dge.hs.kr">Daegu Science High School</a> in 2018, and received a bachelor's degree in Mathematics at <a href="snu.ac.kr">Seoul National University</a>. My research focuses on lattice-based cryptography, specifically fully homomorphic encryption (FHE) and its multi-party variants. 
-            </p>
+              <div class="content-card profile-copy">
+                <p class="eyebrow">Who am I?</p>
+                <h1 class="page-title" id="profile-title">Seonhong Min</h1>
+                <p class="profile-summary">
+                   I am a Ph.D student in the Department of Computer Science and Engineering led by Prof. <a href="https://yongsoosong.github.io/">Yongsoo Song</a> at <a href="https://snu.ac.kr">Seoul National University</a>. I graduated from <a href="https://dshs.dge.hs.kr">Daegu Science High School</a> in 2018, and received a bachelor's degree in Mathematics at Seoul National University. My research focuses on lattice-based cryptography, specifically fully homomorphic encryption (FHE) and its multi-party variants.
+                </p>
 
-            <p>
-              See <a href="pages/trivia.html">trivia page</a> to get to know me better (personally). 
-            </p>
-          </div>
-          <div class="content-card">
-            <h2>Disclaimer</h2>
-            <p>
-              <a href="https://youtu.be/uc6f_2nPSX8?si=mIO_RrMg5luWaK56">Domo Arigato Mr Roboto</a>; I used ChatGPT Codex to build this homepage.
-            </p>
-          </div>
+                <p>
+                  See <a href="/pages/trivia">trivia page</a> to get to know me better (personally). 
+                </p>
+            
+                <div class="quick-links" aria-label="Profile links">
+                  <a href="pages/publications.html">Publications</a>
+                  <a href="files/CV.pdf">CV</a>
+                  <a href="https://scholar.google.com/citations?hl=en&amp;user=RRTKuJEAAAAJ">Google Scholar</a>
+                  <a href="https://github.com/snu-lukemin">GitHub</a>
+                  <a href="pages/contact.html">Contact</a>
+                </div>
+              </div>
+            </section>
+
+            <section aria-labelledby="selected-publications-title">
+              <h2 id="selected-publications-title">Selected Publications</h2>
+              <div class="content-card">
+                <ol class="selected-list">
+                  <li class="selected-publication">
+                    <span class="venue-chip">ACM CCS 2026</span>
+                    <h3>Distributed Key Generation for Efficient Threshold-CKKS</h3>
+                    <p class="publication-links"><a href="https://eprint.iacr.org/2025/2057">Paper</a></p>
+                  </li>
+                  <li class="selected-publication">
+                    <span class="venue-chip">CRYPTO 2026</span>
+                    <h3>Multi-key Fully Homomorphic Encryption with Non-Interactive Setup in the Plain Model</h3>
+                    <p class="publication-links">
+                      <a href="https://eprint.iacr.org/2026/322">Paper</a> ·
+                      <a href="files/CRYPTO-MKFHE.pdf">Slides</a> ·
+                      <a href="https://github.com/SNUCP/crsless">Code</a>
+                    </p>
+                  </li>
+                  <li class="selected-publication">
+                    <span class="venue-chip">EUROCRYPT 2026</span>
+                    <h3>HERDS: Multi-Key Fully Homomorphic Encryption with Sublinear Bootstrapping</h3>
+                    <p class="publication-links"><a href="https://eprint.iacr.org/2025/1804">Paper</a></p>
+                  </li>
+                  <li class="selected-publication">
+                    <span class="venue-chip">ASIACRYPT 2025</span>
+                    <h3>Carousel: Fully Homomorphic Encryption with Bootstrapping over Automorphism Group</h3>
+                    <p class="publication-links">
+                      <a href="https://eprint.iacr.org/2024/2032">Paper</a> ·
+                      <a href="https://github.com/SNUCP/carousel">Code</a> ·
+                      <a href="files/AC-Carousel.pdf">Slides</a>
+                    </p>
+                  </li>
+                  <li class="selected-publication">
+                    <span class="venue-chip">ACM CCS 2025</span>
+                    <h3>Practical (Malicious) Circuit Privacy / Sanitization for TFHE</h3>
+                    <p class="publication-links">
+                      <a href="https://eprint.iacr.org/2025/216">Paper</a> ·
+                      <a href="files/FHEorg-sanitisation.pdf">Poster</a>
+                    </p>
+                  </li>
+                </ol>
+                <p class="section-link"><a href="pages/publications.html">View all publications</a></p>
+              </div>
+            </section>
+
+            <section aria-labelledby="research-focus-title">
+              <h2 id="research-focus-title">Research Focus</h2>
+              <div class="content-card">
+                <p class="research-copy">
+                  My research develops efficient and practical lattice-based cryptography across multi-key and threshold FHE, with an emphasis on stronger functionality, privacy, and implementation performance.
+                </p>
+                <ul class="topic-list" aria-label="Research topics">
+                  <li>Fully Homomorphic Encryption</li>
+                  <li>Multi-key &amp; Threshold FHE</li>
+                  <li>TFHE &amp; CKKS</li>
+                  <li>Bootstrapping</li>
+                  <li>Circuit Privacy</li>
+                  <li>Practical Implementations</li>
+                </ul>
+              </div>
+            </section>
+
+            <section class="content-card disclaimer" aria-labelledby="disclaimer-title">
+              <h2 id="disclaimer-title">Disclaimer</h2>
+              <p>
+                <a href="https://youtu.be/uc6f_2nPSX8?si=mIO_RrMg5luWaK56">Domo Arigato Mr Roboto</a>; I used ChatGPT Codex to build this homepage.
+              </p>
+            </section>
           </div>
         </main>
       </div>
