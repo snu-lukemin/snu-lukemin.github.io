@@ -87,6 +87,25 @@
         font-size: 0.72rem;
         line-height: 1.5;
       }
+      .events-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .events-item {
+        padding: 0.9rem 0;
+        border-top: 1px solid var(--line);
+      }
+      .events-item:first-child {
+        padding-top: 0;
+        border-top: 0;
+      }
+      .events-item:last-child { padding-bottom: 0; }
+      .events-item h3 {
+        margin: 0.4rem 0 0.35rem;
+        font-size: 1rem;
+        line-height: 1.45;
+      }
       .selected-list {
         margin: 0;
         padding: 0;
@@ -153,76 +172,45 @@
                 <p>
                   See <a href="/pages/trivia">trivia page</a> to get to know me better (personally). 
                 </p>
-            
-                <div class="quick-links" aria-label="Profile links">
-                  <a href="pages/publications.html">Publications</a>
-                  <a href="files/CV.pdf">CV</a>
-                  <a href="https://scholar.google.com/citations?hl=en&amp;user=RRTKuJEAAAAJ">Google Scholar</a>
-                  <a href="https://github.com/snu-lukemin">GitHub</a>
-                  <a href="pages/contact.html">Contact</a>
-                </div>
+              </div>
+            </section>
+
+            <section aria-labelledby="events-title">
+              <h2 id="events-title">Upcoming Events</h2>
+              <div class="content-card">
+                <ol class="events-list">
+                  <li class="events-item">
+                    I am attending <b>CCS 2026</b> and <b>WAHC</b> workshop from 16th Nov, 2026 to 19th Nov, 2026. See you in the Hague!
+                  </li>
+                </ol>
               </div>
             </section>
 
             <section aria-labelledby="selected-publications-title">
-              <h2 id="selected-publications-title">Selected Publications</h2>
+              <h2 id="selected-publications-title">Selected Recent Publications</h2>
               <div class="content-card">
                 <ol class="selected-list">
                   <li class="selected-publication">
                     <span class="venue-chip">ACM CCS 2026</span>
                     <h3>Distributed Key Generation for Efficient Threshold-CKKS</h3>
-                    <p class="publication-links"><a href="https://eprint.iacr.org/2025/2057">Paper</a></p>
+                    <p class="publication-links"><a href="https://eprint.iacr.org/2025/2057">ePrint</a></p>
                   </li>
                   <li class="selected-publication">
                     <span class="venue-chip">CRYPTO 2026</span>
                     <h3>Multi-key Fully Homomorphic Encryption with Non-Interactive Setup in the Plain Model</h3>
-                    <p class="publication-links">
-                      <a href="https://eprint.iacr.org/2026/322">Paper</a> ·
-                      <a href="files/CRYPTO-MKFHE.pdf">Slides</a> ·
-                      <a href="https://github.com/SNUCP/crsless">Code</a>
-                    </p>
-                  </li>
-                  <li class="selected-publication">
-                    <span class="venue-chip">EUROCRYPT 2026</span>
-                    <h3>HERDS: Multi-Key Fully Homomorphic Encryption with Sublinear Bootstrapping</h3>
-                    <p class="publication-links"><a href="https://eprint.iacr.org/2025/1804">Paper</a></p>
+                    <p class="publication-links"> <a href="https://eprint.iacr.org/2026/322">ePrint</a> </p>
                   </li>
                   <li class="selected-publication">
                     <span class="venue-chip">ASIACRYPT 2025</span>
                     <h3>Carousel: Fully Homomorphic Encryption with Bootstrapping over Automorphism Group</h3>
-                    <p class="publication-links">
-                      <a href="https://eprint.iacr.org/2024/2032">Paper</a> ·
-                      <a href="https://github.com/SNUCP/carousel">Code</a> ·
-                      <a href="files/AC-Carousel.pdf">Slides</a>
-                    </p>
+                    <p class="publication-links"> <a href="https://eprint.iacr.org/2024/2032">ePrint</a> </p>
                   </li>
                   <li class="selected-publication">
                     <span class="venue-chip">ACM CCS 2025</span>
                     <h3>Practical (Malicious) Circuit Privacy / Sanitization for TFHE</h3>
-                    <p class="publication-links">
-                      <a href="https://eprint.iacr.org/2025/216">Paper</a> ·
-                      <a href="files/FHEorg-sanitisation.pdf">Poster</a>
-                    </p>
+                    <p class="publication-links"> <a href="https://eprint.iacr.org/2025/216">ePrint</a> </p>
                   </li>
                 </ol>
-                <p class="section-link"><a href="pages/publications.html">View all publications</a></p>
-              </div>
-            </section>
-
-            <section aria-labelledby="research-focus-title">
-              <h2 id="research-focus-title">Research Focus</h2>
-              <div class="content-card">
-                <p class="research-copy">
-                  My research develops efficient and practical lattice-based cryptography across multi-key and threshold FHE, with an emphasis on stronger functionality, privacy, and implementation performance.
-                </p>
-                <ul class="topic-list" aria-label="Research topics">
-                  <li>Fully Homomorphic Encryption</li>
-                  <li>Multi-key &amp; Threshold FHE</li>
-                  <li>TFHE &amp; CKKS</li>
-                  <li>Bootstrapping</li>
-                  <li>Circuit Privacy</li>
-                  <li>Practical Implementations</li>
-                </ul>
               </div>
             </section>
 
